@@ -81,14 +81,14 @@
             // 
             this.txtUsername.Location = new System.Drawing.Point(86, 86);
             this.txtUsername.Name = "txtUsername";
-            this.txtUsername.Size = new System.Drawing.Size(121, 20);
+            this.txtUsername.Size = new System.Drawing.Size(191, 20);
             this.txtUsername.TabIndex = 4;
             // 
             // txtPassword
             // 
             this.txtPassword.Location = new System.Drawing.Point(86, 144);
             this.txtPassword.Name = "txtPassword";
-            this.txtPassword.Size = new System.Drawing.Size(121, 20);
+            this.txtPassword.Size = new System.Drawing.Size(191, 20);
             this.txtPassword.TabIndex = 5;
             // 
             // cboServer
@@ -96,7 +96,7 @@
             this.cboServer.FormattingEnabled = true;
             this.cboServer.Location = new System.Drawing.Point(86, 44);
             this.cboServer.Name = "cboServer";
-            this.cboServer.Size = new System.Drawing.Size(121, 21);
+            this.cboServer.Size = new System.Drawing.Size(191, 21);
             this.cboServer.TabIndex = 6;
             // 
             // cboDataBase
@@ -104,7 +104,7 @@
             this.cboDataBase.FormattingEnabled = true;
             this.cboDataBase.Location = new System.Drawing.Point(86, 198);
             this.cboDataBase.Name = "cboDataBase";
-            this.cboDataBase.Size = new System.Drawing.Size(121, 21);
+            this.cboDataBase.Size = new System.Drawing.Size(191, 21);
             this.cboDataBase.TabIndex = 7;
             // 
             // button1
@@ -130,7 +130,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(293, 302);
+            this.ClientSize = new System.Drawing.Size(305, 298);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.cboDataBase);

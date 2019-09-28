@@ -8,10 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
+using System.Data.Sql;
+using Microsoft.SqlServer.Management.Smo;
 namespace nha_tro
 {
     public partial class CauHinhSQL : Form
     {
+        CauHinh CauHinh = new CauHinh();
         public CauHinhSQL()
         {
             InitializeComponent();
@@ -19,16 +22,21 @@ namespace nha_tro
         
         private void cboServer_DropDown(object sender, EventArgs e)
         {
-            CauHinh CauHinh = new CauHinh();
-            DataTable dt = CauHinh.GetServerName();
-            cboServer.Items.Clear();
-            foreach (System.Data.DataRow row in dt.Rows)
+            //DataTable dt = new DataTable();
+            //dt = CauHinh.GetServerName();
+            //cboServer.Items.Clear();
+            //foreach (System.Data.DataRow row in dt.Rows)
+            //{
+            //    foreach (System.Data.DataColumn col in dt.Columns)
+            //    {
+            //        cboServer.Items.Add(row[col]);
+            //    }
+            //}
+            DataTable dt = SqlDataSourceEnumerator.Instance.GetDataSources();
+            foreach (DataRow dr in dt.Rows)
             {
-                foreach (System.Data.DataColumn col in dt.Columns)
-                {
-                    cboServer.Items.Add(row[col]);
-                }
-            }
+                cboServer.Items.Add(string.Concat(dr["ServerName"], "\\", dr["InstanceName"]));
+            }          
         }
         //public bool CheckedBeforSearchNameDB()
         //{
@@ -39,7 +47,6 @@ namespace nha_tro
         //}
         private void cboDataBase_DropDown(object sender, EventArgs e)
         {
-            CauHinh CauHinh = new CauHinh();
             //if (CheckedBeforSearchNameDB())
             //{
                 cboDataBase.Items.Clear();
@@ -62,14 +69,15 @@ namespace nha_tro
 
         private void button1_Click(object sender, EventArgs e)
         {
-            CauHinh CauHinh = new CauHinh();
             CauHinh.ChangeConnectionString(cboServer.Text, cboDataBase.Text,txtUsername.Text, txtPassword.Text);
             this.Close();
         }
 
         private void CauHinhSQL_Load(object sender, EventArgs e)
         {
-            cboServer_DropDown(sender, e); 
+            cboServer_DropDown(sender, e);
+            cboDataBase_DropDown(null, null);
         }
+        
     }
 }

@@ -42,10 +42,12 @@ namespace nha_tro
             }
             return 2;// Đăng nhập thành công
         }
+        //
+
         public DataTable GetServerName()
         {
             SqlDataSourceEnumerator instance = SqlDataSourceEnumerator.Instance;
-            System.Data.DataTable table = instance.GetDataSources();
+            System.Data.DataTable table = SqlDataSourceEnumerator.Instance.GetDataSources();
             return table;
         }
         public List<string> GetDatabaseName(string pServerName, string pUser, string pPass)
@@ -76,6 +78,7 @@ namespace nha_tro
             Properties.Settings.Default.Save();
         }
 
+        
 
     }
 }

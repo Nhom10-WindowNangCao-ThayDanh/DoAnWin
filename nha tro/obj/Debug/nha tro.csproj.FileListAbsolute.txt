@@ -8,3 +8,13 @@ D:\github\DoAnWin\nha tro\nha tro\obj\Debug\nha tro.exe
 D:\github\DoAnWin\nha tro\nha tro\obj\Debug\nha tro.pdb
 D:\github\DoAnWin\nha tro\nha tro\obj\Debug\nha tro.csprojResolveAssemblyReference.cache
 D:\github\DoAnWin\nha tro\nha tro\obj\Debug\nha_tro.CauHinhSQL.resources
+C:\Users\lythi\OneDrive\Desktop\DoAnWin\nha tro\bin\Debug\nha tro.exe.config
+C:\Users\lythi\OneDrive\Desktop\DoAnWin\nha tro\obj\Debug\nha tro.exe
+C:\Users\lythi\OneDrive\Desktop\DoAnWin\nha tro\obj\Debug\nha tro.pdb
+C:\Users\lythi\OneDrive\Desktop\DoAnWin\nha tro\bin\Debug\nha tro.exe
+C:\Users\lythi\OneDrive\Desktop\DoAnWin\nha tro\bin\Debug\nha tro.pdb
+C:\Users\lythi\OneDrive\Desktop\DoAnWin\nha tro\obj\Debug\nha tro.csprojResolveAssemblyReference.cache
+C:\Users\lythi\OneDrive\Desktop\DoAnWin\nha tro\obj\Debug\nha_tro.CauHinhSQL.resources
+C:\Users\lythi\OneDrive\Desktop\DoAnWin\nha tro\obj\Debug\nha_tro.DangNhap.resources
+C:\Users\lythi\OneDrive\Desktop\DoAnWin\nha tro\obj\Debug\nha_tro.Properties.Resources.resources
+C:\Users\lythi\OneDrive\Desktop\DoAnWin\nha tro\obj\Debug\nha tro.csproj.GenerateResource.Cache
