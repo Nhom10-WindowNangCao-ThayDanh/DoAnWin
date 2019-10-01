@@ -16,5 +16,17 @@ namespace nha_tro
         {
             InitializeComponent();
         }
+
+        private void thêmNgườiDungToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ThemNguoiDung ThemNguoiDung = new ThemNguoiDung();
+            ThemNguoiDung.ShowDialog();
+        }
+
+        private void thêmNDVàoNhómToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ThemNguoiDungVaoNhom ThemNguoiDungVaoNhom = new ThemNguoiDungVaoNhom();
+            ThemNguoiDungVaoNhom.ShowDialog();
+        }
     }
 }
