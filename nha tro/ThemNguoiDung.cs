@@ -16,6 +16,25 @@ namespace nha_tro
         {
             InitializeComponent();
         }
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.tableAdapterManager.NguoiDungTableAdapter.Insert(tendangnhapTextEdit.Text, matkhauTextEdit.Text, hoatDongCheckEdit.Checked);
+            this.nguoiDungTableAdapter.Fill(this.dataSet1.NguoiDung);
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.tableAdapterManager.NguoiDungTableAdapter.Delete(tendangnhapTextEdit.Text, matkhauTextEdit.Text, hoatDongCheckEdit.Checked);
+            this.nguoiDungTableAdapter.Fill(this.dataSet1.NguoiDung);
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Validate();
+            this.nguoiDungBindingSource.EndEdit();
+            this.tableAdapterManager.UpdateAll(this.dataSet1);
+            MessageBox.Show("Cập nhật thành công!!!");
+        }
 
         private void nguoiDungBindingNavigatorSaveItem_Click(object sender, EventArgs e)
         {
@@ -30,26 +49,6 @@ namespace nha_tro
             // TODO: This line of code loads data into the 'dataSet1.NguoiDung' table. You can move, or remove it, as needed.
             this.nguoiDungTableAdapter.Fill(this.dataSet1.NguoiDung);
 
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            this.tableAdapterManager.NguoiDungTableAdapter.Insert(tendangnhapTextBox.Text, matkhauTextBox.Text, hoatDongCheckBox.Checked);
-            this.nguoiDungTableAdapter.Fill(this.dataSet1.NguoiDung);
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            this.tableAdapterManager.NguoiDungTableAdapter.Delete(tendangnhapTextBox.Text, matkhauTextBox.Text, hoatDongCheckBox.Checked);
-            this.nguoiDungTableAdapter.Fill(this.dataSet1.NguoiDung);
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-            this.Validate();
-            this.nguoiDungBindingSource.EndEdit();
-            this.tableAdapterManager.UpdateAll(this.dataSet1);
-            MessageBox.Show("Cập nhật thành công!!!");
         }
     }
 }

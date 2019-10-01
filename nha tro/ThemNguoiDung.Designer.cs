@@ -40,10 +40,10 @@
             this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewCheckBoxColumn1 = new System.Windows.Forms.DataGridViewCheckBoxColumn();
-            this.tendangnhapTextBox = new System.Windows.Forms.TextBox();
-            this.matkhauTextBox = new System.Windows.Forms.TextBox();
-            this.hoatDongCheckBox = new System.Windows.Forms.CheckBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.tendangnhapTextEdit = new DevExpress.XtraEditors.TextEdit();
+            this.matkhauTextEdit = new DevExpress.XtraEditors.TextEdit();
+            this.hoatDongCheckEdit = new DevExpress.XtraEditors.CheckEdit();
+            this.Thêm = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             tendangnhapLabel = new System.Windows.Forms.Label();
@@ -52,6 +52,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataSet1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nguoiDungBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nguoiDungDataGridView)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tendangnhapTextEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.matkhauTextEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.hoatDongCheckEdit.Properties)).BeginInit();
             this.SuspendLayout();
             // 
             // dataSet1
@@ -72,7 +75,9 @@
             // 
             this.tableAdapterManager.BackupDataSetBeforeUpdate = false;
             this.tableAdapterManager.NguoiDungNhomNguoiDung_DkTableAdapter = null;
+            this.tableAdapterManager.NguoiDungNhomNguoiDungTableAdapter = null;
             this.tableAdapterManager.NguoiDungTableAdapter = this.nguoiDungTableAdapter;
+            this.tableAdapterManager.NhomNguoiDungTableAdapter = null;
             this.tableAdapterManager.UpdateOrder = nha_tro.DataSet1TableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
             // 
             // nguoiDungDataGridView
@@ -84,10 +89,10 @@
             this.dataGridViewTextBoxColumn2,
             this.dataGridViewCheckBoxColumn1});
             this.nguoiDungDataGridView.DataSource = this.nguoiDungBindingSource;
-            this.nguoiDungDataGridView.Location = new System.Drawing.Point(12, 119);
+            this.nguoiDungDataGridView.Location = new System.Drawing.Point(12, 84);
             this.nguoiDungDataGridView.Name = "nguoiDungDataGridView";
-            this.nguoiDungDataGridView.Size = new System.Drawing.Size(343, 220);
-            this.nguoiDungDataGridView.TabIndex = 0;
+            this.nguoiDungDataGridView.Size = new System.Drawing.Size(300, 220);
+            this.nguoiDungDataGridView.TabIndex = 1;
             // 
             // dataGridViewTextBoxColumn1
             // 
@@ -110,69 +115,68 @@
             // tendangnhapLabel
             // 
             tendangnhapLabel.AutoSize = true;
-            tendangnhapLabel.Location = new System.Drawing.Point(393, 119);
+            tendangnhapLabel.Location = new System.Drawing.Point(512, 125);
             tendangnhapLabel.Name = "tendangnhapLabel";
             tendangnhapLabel.Size = new System.Drawing.Size(73, 13);
             tendangnhapLabel.TabIndex = 1;
             tendangnhapLabel.Text = "tendangnhap:";
             // 
-            // tendangnhapTextBox
+            // tendangnhapTextEdit
             // 
-            this.tendangnhapTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.nguoiDungBindingSource, "tendangnhap", true));
-            this.tendangnhapTextBox.Location = new System.Drawing.Point(472, 116);
-            this.tendangnhapTextBox.Name = "tendangnhapTextBox";
-            this.tendangnhapTextBox.Size = new System.Drawing.Size(104, 20);
-            this.tendangnhapTextBox.TabIndex = 2;
+            this.tendangnhapTextEdit.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.nguoiDungBindingSource, "tendangnhap", true));
+            this.tendangnhapTextEdit.Location = new System.Drawing.Point(591, 122);
+            this.tendangnhapTextEdit.Name = "tendangnhapTextEdit";
+            this.tendangnhapTextEdit.Size = new System.Drawing.Size(100, 20);
+            this.tendangnhapTextEdit.TabIndex = 2;
             // 
             // matkhauLabel
             // 
             matkhauLabel.AutoSize = true;
-            matkhauLabel.Location = new System.Drawing.Point(393, 145);
+            matkhauLabel.Location = new System.Drawing.Point(512, 151);
             matkhauLabel.Name = "matkhauLabel";
             matkhauLabel.Size = new System.Drawing.Size(51, 13);
             matkhauLabel.TabIndex = 3;
             matkhauLabel.Text = "matkhau:";
             // 
-            // matkhauTextBox
+            // matkhauTextEdit
             // 
-            this.matkhauTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.nguoiDungBindingSource, "matkhau", true));
-            this.matkhauTextBox.Location = new System.Drawing.Point(472, 142);
-            this.matkhauTextBox.Name = "matkhauTextBox";
-            this.matkhauTextBox.Size = new System.Drawing.Size(104, 20);
-            this.matkhauTextBox.TabIndex = 4;
+            this.matkhauTextEdit.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.nguoiDungBindingSource, "matkhau", true));
+            this.matkhauTextEdit.Location = new System.Drawing.Point(591, 148);
+            this.matkhauTextEdit.Name = "matkhauTextEdit";
+            this.matkhauTextEdit.Size = new System.Drawing.Size(100, 20);
+            this.matkhauTextEdit.TabIndex = 4;
             // 
             // hoatDongLabel
             // 
             hoatDongLabel.AutoSize = true;
-            hoatDongLabel.Location = new System.Drawing.Point(393, 173);
+            hoatDongLabel.Location = new System.Drawing.Point(512, 177);
             hoatDongLabel.Name = "hoatDongLabel";
             hoatDongLabel.Size = new System.Drawing.Size(62, 13);
             hoatDongLabel.TabIndex = 5;
             hoatDongLabel.Text = "Hoat Dong:";
             // 
-            // hoatDongCheckBox
+            // hoatDongCheckEdit
             // 
-            this.hoatDongCheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.nguoiDungBindingSource, "HoatDong", true));
-            this.hoatDongCheckBox.Location = new System.Drawing.Point(472, 168);
-            this.hoatDongCheckBox.Name = "hoatDongCheckBox";
-            this.hoatDongCheckBox.Size = new System.Drawing.Size(104, 24);
-            this.hoatDongCheckBox.TabIndex = 6;
-            this.hoatDongCheckBox.Text = "checkBox1";
-            this.hoatDongCheckBox.UseVisualStyleBackColor = true;
+            this.hoatDongCheckEdit.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.nguoiDungBindingSource, "HoatDong", true));
+            this.hoatDongCheckEdit.Location = new System.Drawing.Point(591, 174);
+            this.hoatDongCheckEdit.Name = "hoatDongCheckEdit";
+            this.hoatDongCheckEdit.Properties.Caption = "checkEdit1";
+            this.hoatDongCheckEdit.Size = new System.Drawing.Size(100, 19);
+            this.hoatDongCheckEdit.TabIndex = 6;
             // 
-            // button1
+            // Thêm
             // 
-            this.button1.Location = new System.Drawing.Point(396, 225);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 7;
-            this.button1.Text = "Thêm";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.Thêm.Location = new System.Drawing.Point(396, 234);
+            this.Thêm.Name = "Thêm";
+            this.Thêm.Size = new System.Drawing.Size(75, 23);
+            this.Thêm.TabIndex = 7;
+            this.Thêm.Text = "Thêm";
+            this.Thêm.UseVisualStyleBackColor = true;
+            this.Thêm.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(477, 225);
+            this.button2.Location = new System.Drawing.Point(515, 234);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 8;
@@ -182,7 +186,7 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(558, 225);
+            this.button3.Location = new System.Drawing.Point(645, 234);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(75, 23);
             this.button3.TabIndex = 9;
@@ -194,16 +198,16 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(730, 415);
+            this.ClientSize = new System.Drawing.Size(782, 356);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.Thêm);
             this.Controls.Add(tendangnhapLabel);
-            this.Controls.Add(this.tendangnhapTextBox);
+            this.Controls.Add(this.tendangnhapTextEdit);
             this.Controls.Add(matkhauLabel);
-            this.Controls.Add(this.matkhauTextBox);
+            this.Controls.Add(this.matkhauTextEdit);
             this.Controls.Add(hoatDongLabel);
-            this.Controls.Add(this.hoatDongCheckBox);
+            this.Controls.Add(this.hoatDongCheckEdit);
             this.Controls.Add(this.nguoiDungDataGridView);
             this.Name = "ThemNguoiDung";
             this.Text = "ThemNguoiDung";
@@ -211,6 +215,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataSet1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nguoiDungBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nguoiDungDataGridView)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tendangnhapTextEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.matkhauTextEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.hoatDongCheckEdit.Properties)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -226,10 +233,10 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn1;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn2;
         private System.Windows.Forms.DataGridViewCheckBoxColumn dataGridViewCheckBoxColumn1;
-        private System.Windows.Forms.TextBox tendangnhapTextBox;
-        private System.Windows.Forms.TextBox matkhauTextBox;
-        private System.Windows.Forms.CheckBox hoatDongCheckBox;
-        private System.Windows.Forms.Button button1;
+        private DevExpress.XtraEditors.TextEdit tendangnhapTextEdit;
+        private DevExpress.XtraEditors.TextEdit matkhauTextEdit;
+        private DevExpress.XtraEditors.CheckEdit hoatDongCheckEdit;
+        private System.Windows.Forms.Button Thêm;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
     }
