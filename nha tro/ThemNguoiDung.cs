@@ -46,6 +46,10 @@ namespace nha_tro
 
         private void button3_Click(object sender, EventArgs e)
         {
+            this.Validate();
+            this.nguoiDungBindingSource.EndEdit();
+            this.tableAdapterManager.UpdateAll(this.dataSet1);
+            MessageBox.Show("Cập nhật thành công!!!");
         }
     }
 }
