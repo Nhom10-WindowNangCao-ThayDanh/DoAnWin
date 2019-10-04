@@ -21,3 +21,5 @@ C:\Users\lythi\OneDrive\Desktop\DoAnWin\nha tro\obj\Debug\nha_tro.ThemNguoiDung.
 C:\Users\lythi\OneDrive\Desktop\DoAnWin\nha tro\obj\Debug\nha_tro.ThemNguoiDungVaoNhom.resources
 C:\Users\lythi\OneDrive\Desktop\DoAnWin\nha tro\obj\Debug\nha tro.exe.licenses
 C:\Users\lythi\OneDrive\Desktop\DoAnWin\nha tro\obj\Debug\nha_tro.FromMain.resources
+C:\Users\lythi\OneDrive\Desktop\DoAnWin\nha tro\obj\Debug\nha_tro.PhanQuyen.resources
+C:\Users\lythi\OneDrive\Desktop\DoAnWin\nha tro\obj\Debug\nha tro.csprojResolveAssemblyReference.cache

@@ -78,6 +78,29 @@ namespace nha_tro
             Properties.Settings.Default.Save();
         }
 
+        public List<string> GetMaNhomNguoiDung(string tendangnhap)
+        {
+            List<string> nhomND = new List<string>();
+            DataTable dt = new DataTable();
+
+            SqlDataAdapter da = new SqlDataAdapter(string.Format("select MaNhom from NguoiDungNhomNguoiDung where tendangnhap = '{0}'  ", tendangnhap), conStr);
+            da.Fill(dt);
+
+            for (int i = 0; i < dt.Rows.Count; i++)
+            {
+                nhomND.Add(dt.Rows[i][0].ToString());
+                string a = dt.Rows[i][0].ToString();
+            }
+            return nhomND;
+        }
+
+        public DataTable GetMaManHinh(string item)
+        {
+            DataTable dt = new DataTable();
+            dt.Rows.Add(item);
+            return dt;
+        }
+
         
 
     }

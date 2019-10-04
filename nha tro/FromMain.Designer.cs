@@ -326,6 +326,7 @@
             this.barButtonItem3.Name = "barButtonItem3";
             this.barButtonItem3.RibbonStyle = ((DevExpress.XtraBars.Ribbon.RibbonItemStyles)(((DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large | DevExpress.XtraBars.Ribbon.RibbonItemStyles.SmallWithText) 
             | DevExpress.XtraBars.Ribbon.RibbonItemStyles.SmallWithoutText)));
+            this.barButtonItem3.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem3_ItemClick);
             // 
             // ribbonPage1
             // 
@@ -360,6 +361,7 @@
             this.IsMdiContainer = true;
             this.Name = "FromMain";
             this.Text = "XtraForm1";
+            this.Load += new System.EventHandler(this.FromMain_Load);
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.imageCollection1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.documentManager1)).EndInit();
