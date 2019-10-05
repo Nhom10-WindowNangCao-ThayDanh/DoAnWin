@@ -33,8 +33,7 @@ namespace nha_tro
                 MessageBox.Show("Tài khoản bị khóa");
                 return;
             }
-
-            FromMain FromMain = new FromMain();
+            FromMain FromMain = new FromMain(textBox1.Text);
             FromMain.ShowDialog();
         }
         private void button1_Click(object sender, EventArgs e)

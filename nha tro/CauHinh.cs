@@ -44,6 +44,7 @@ namespace nha_tro
         }
         //
 
+        
         public DataTable GetServerName()
         {
             SqlDataSourceEnumerator instance = SqlDataSourceEnumerator.Instance;
@@ -94,14 +95,53 @@ namespace nha_tro
             return nhomND;
         }
 
-        public DataTable GetMaManHinh(string item)
+        List<string> MaManHinh = new List<string>();
+        DataTable dtMaMH = new DataTable();
+        public List<string> GetMaManHinh(string MaNhom)
         {
-            DataTable dt = new DataTable();
-            dt.Rows.Add(item);
-            return dt;
+            SqlDataAdapter da = new SqlDataAdapter(string.Format("select MaManHinh from PhanQuyen where MaNhom = '{0}'  ", MaNhom), conStr);
+            da.Fill(dtMaMH);
+            if (dtMaMH.Rows.Count != 0)
+            {
+                for (int i = 0; i < dtMaMH.Rows.Count; i++)
+                {
+                    MaManHinh.Add(dtMaMH.Rows[i][0].ToString());
+                    string a = dtMaMH.Rows[i][0].ToString();
+                }
+                return MaManHinh;
+            }
+            else
+            {
+                MaManHinh.Add("0");
+                return MaManHinh;
+            }
         }
 
-        
+
+
+        List<string> CoQuyen = new List<string>();
+        DataTable dtCoQuyen = new DataTable();             
+        public List<string> GetCoQuyen(string MaNhom)
+        {
+            SqlDataAdapter da = new SqlDataAdapter(string.Format("select CoQuyen from PhanQuyen where MaNhom = '{0}'  ", MaNhom), conStr);
+            da.Fill(dtCoQuyen);
+
+
+            if (dtCoQuyen.Rows.Count != 0)
+            {
+                for (int i = 0; i < dtCoQuyen.Rows.Count; i++)
+                {
+                    CoQuyen.Add(dtCoQuyen.Rows[i][0].ToString());
+                    string a = dtCoQuyen.Rows[i][0].ToString();
+                }
+                return CoQuyen;
+            }
+            else
+            {
+                CoQuyen.Add("0");
+                return CoQuyen;
+            }
+        }
 
     }
 }

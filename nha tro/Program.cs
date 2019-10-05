@@ -16,7 +16,7 @@ namespace nha_tro
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FromMain());
+            Application.Run(new DangNhap());
         }
     }
 }
