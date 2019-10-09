@@ -7,17 +7,16 @@ using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using System.Windows.Forms;
 namespace nha_tro
 {
     public class CauHinh
     {
-        string conStr = ConfigurationManager.ConnectionStrings["KetnoiSQL"].ToString();
         public int Check_Config()
         {
-            if (conStr == string.Empty)
+            if (Properties.Settings.Default.KetnoiSQL == string.Empty)
                 return 1;// Chuỗi cấu hình không tồn tại
-            SqlConnection _Sqlconn = new SqlConnection(conStr);
+            SqlConnection _Sqlconn = new SqlConnection(Properties.Settings.Default.KetnoiSQL);
             try
             {
                 if (_Sqlconn.State == System.Data.ConnectionState.Closed)
@@ -29,9 +28,10 @@ namespace nha_tro
                 return 2;// Chuỗi cấu hình không phù hợp.
             }
         }
+
         public int Check_User(string pUser, string pPass)
         {
-            SqlDataAdapter daUser = new SqlDataAdapter("select * from NguoiDung where tendangnhap='" + pUser + "' and matkhau ='" + pPass + "'", conStr);
+            SqlDataAdapter daUser = new SqlDataAdapter("select * from NguoiDung where tendangnhap='" + pUser + "' and matkhau ='" + pPass + "'", Properties.Settings.Default.KetnoiSQL);
             DataTable dt = new DataTable();
             daUser.Fill(dt);
             if (dt.Rows.Count == 0)
@@ -73,9 +73,11 @@ namespace nha_tro
             }
             return _list;
         }
+        
         public void ChangeConnectionString(string pServerName, string pDataBase, string pUser, string pPass)
         {
-            nha_tro.Properties.Settings.Default.KetnoiSQL = "Data Source=" + pServerName + ";Initial Catalog=" + pDataBase + ";User ID=" + pUser + ";pwd = " + pPass + "";
+            string conStr = "Data Source=" + pServerName + ";Initial Catalog=" + pDataBase + ";User ID=" + pUser + ";Password = " + pPass + "";
+            nha_tro.Properties.Settings.Default.KetnoiSQL = conStr;
             Properties.Settings.Default.Save();
         }
 
@@ -84,7 +86,7 @@ namespace nha_tro
             List<string> nhomND = new List<string>();
             DataTable dt = new DataTable();
 
-            SqlDataAdapter da = new SqlDataAdapter(string.Format("select MaNhom from NguoiDungNhomNguoiDung where tendangnhap = '{0}'  ", tendangnhap), conStr);
+            SqlDataAdapter da = new SqlDataAdapter(string.Format("select MaNhom from NguoiDungNhomNguoiDung where tendangnhap = '{0}'  ", tendangnhap), Properties.Settings.Default.KetnoiSQL);
             da.Fill(dt);
 
             for (int i = 0; i < dt.Rows.Count; i++)
@@ -99,7 +101,7 @@ namespace nha_tro
         DataTable dtMaMH = new DataTable();
         public List<string> GetMaManHinh(string MaNhom)
         {
-            SqlDataAdapter da = new SqlDataAdapter(string.Format("select MaManHinh from PhanQuyen where MaNhom = '{0}'  ", MaNhom), conStr);
+            SqlDataAdapter da = new SqlDataAdapter(string.Format("select MaManHinh from PhanQuyen where MaNhom = '{0}'  ", MaNhom), Properties.Settings.Default.KetnoiSQL);
             da.Fill(dtMaMH);
             if (dtMaMH.Rows.Count != 0)
             {
@@ -123,7 +125,7 @@ namespace nha_tro
         DataTable dtCoQuyen = new DataTable();             
         public List<string> GetCoQuyen(string MaNhom)
         {
-            SqlDataAdapter da = new SqlDataAdapter(string.Format("select CoQuyen from PhanQuyen where MaNhom = '{0}'  ", MaNhom), conStr);
+            SqlDataAdapter da = new SqlDataAdapter(string.Format("select CoQuyen from PhanQuyen where MaNhom = '{0}'  ", MaNhom), Properties.Settings.Default.KetnoiSQL);
             da.Fill(dtCoQuyen);
 
 

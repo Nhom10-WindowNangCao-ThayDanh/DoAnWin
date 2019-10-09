@@ -106,6 +106,7 @@
             this.cboDataBase.Name = "cboDataBase";
             this.cboDataBase.Size = new System.Drawing.Size(191, 21);
             this.cboDataBase.TabIndex = 7;
+            this.cboDataBase.DropDown += new System.EventHandler(this.cboDataBase_DropDown_1);
             // 
             // button1
             // 
@@ -113,7 +114,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 8;
-            this.button1.Text = "button1";
+            this.button1.Text = "Lưu";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -123,7 +124,7 @@
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 9;
-            this.button2.Text = "button2";
+            this.button2.Text = "Hủy";
             this.button2.UseVisualStyleBackColor = true;
             // 
             // CauHinhSQL
@@ -143,6 +144,7 @@
             this.Controls.Add(this.label1);
             this.Name = "CauHinhSQL";
             this.Text = "CauHinhSQL";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.CauHinhSQL_FormClosing);
             this.Load += new System.EventHandler(this.CauHinhSQL_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

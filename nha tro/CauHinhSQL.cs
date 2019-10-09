@@ -19,7 +19,7 @@ namespace nha_tro
         {
             InitializeComponent();
         }
-        
+       
         private void cboServer_DropDown(object sender, EventArgs e)
         {
             //DataTable dt = new DataTable();
@@ -36,19 +36,23 @@ namespace nha_tro
             foreach (DataRow dr in dt.Rows)
             {
                 cboServer.Items.Add(string.Concat(dr["ServerName"], "\\", dr["InstanceName"]));
-            }          
+            }
+            string tenpc = System.Environment.MachineName;
+            cboServer.Items.Add(tenpc + @"\SQLEXPRESS");
         }
-        //public bool CheckedBeforSearchNameDB()
-        //{
-        //    // ket noi thu bang ten sv do nguoi dung chon
-        //    SqlConnection conn = new SqlConnection("Data Source=" + cboServer.Text + ";Initial Catalog=" + cboDataBase.Text + ";User ID=" + txtUsername.Text + ";pwd = " + txtPassword.Text + "");
-            
-        //    return true;
-        //}
+        public bool CheckedBeforSearchNameDB()
+        {
+            if (cboServer.SelectedItem.ToString() != null && txtUsername.Text != null && txtPassword.Text != null)
+            {
+                return true;
+            }
+            return false;
+        }
         private void cboDataBase_DropDown(object sender, EventArgs e)
         {
-            //if (CheckedBeforSearchNameDB())
-            //{
+             //cboServer.Text,txtUsername.Text, txtPassword.Text khac null
+            if (CheckedBeforSearchNameDB())
+            {
                 cboDataBase.Items.Clear();
                 List<string> _list = CauHinh.GetDatabaseName(cboServer.Text,txtUsername.Text, txtPassword.Text);
                 if (_list == null)
@@ -60,7 +64,7 @@ namespace nha_tro
                 {
                     cboDataBase.Items.Add(item);
                 }
-            //}
+            }
         }
         private void label1_Click(object sender, EventArgs e)
         {
@@ -70,13 +74,23 @@ namespace nha_tro
         private void button1_Click(object sender, EventArgs e)
         {
             CauHinh.ChangeConnectionString(cboServer.Text, cboDataBase.Text,txtUsername.Text, txtPassword.Text);
+            MessageBox.Show("đã lưu");
             this.Close();
         }
 
         private void CauHinhSQL_Load(object sender, EventArgs e)
         {
-            cboServer_DropDown(sender, e);
-            cboDataBase_DropDown(null, null);
+            cboServer_DropDown(sender, e);          
+        }
+
+        private void cboDataBase_DropDown_1(object sender, EventArgs e)
+        {
+            cboDataBase_DropDown(sender, e);
+        }
+
+        private void CauHinhSQL_FormClosing(object sender, FormClosingEventArgs e)
+        {
+
         }
         
     }
