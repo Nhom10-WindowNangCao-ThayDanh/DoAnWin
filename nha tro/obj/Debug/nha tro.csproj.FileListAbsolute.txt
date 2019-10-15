@@ -18,6 +18,7 @@ C:\Users\lythi\OneDrive\Desktop\DoAnWin\nha tro\obj\Debug\nha tro.pdb
 C:\Users\Admin\Documents\GitHub\DoAnWin\nha tro\bin\Debug\nha tro.exe.config
 C:\Users\Admin\Documents\GitHub\DoAnWin\nha tro\obj\Debug\nha tro.exe
 C:\Users\Admin\Documents\GitHub\DoAnWin\nha tro\obj\Debug\nha tro.pdb
+<<<<<<< HEAD
 C:\Users\Admin\Documents\GitHub\DoAnWin\nha tro\obj\Debug\nha tro.csprojResolveAssemblyReference.cache
 C:\Users\Admin\Documents\GitHub\DoAnWin\nha tro\obj\Debug\nha_tro.CauHinhSQL.resources
 C:\Users\Admin\Documents\GitHub\DoAnWin\nha tro\obj\Debug\nha_tro.DangKyThuePhong.resources
@@ -33,3 +34,8 @@ C:\Users\Admin\Documents\GitHub\DoAnWin\nha tro\obj\Debug\nha tro.csproj.Generat
 C:\Users\Admin\Documents\GitHub\DoAnWin\nha tro\obj\Debug\nha tro.exe.licenses
 C:\Users\Admin\Documents\GitHub\DoAnWin\nha tro\bin\Debug\nha tro.exe
 C:\Users\Admin\Documents\GitHub\DoAnWin\nha tro\bin\Debug\nha tro.pdb
+=======
+C:\Users\lythi\OneDrive\Desktop\DoAnWin\nha tro\obj\Debug\nha tro.csprojResolveAssemblyReference.cache
+C:\Users\lythi\OneDrive\Desktop\DoAnWin\nha tro\obj\Debug\nha_tro.TrangThaiPhong.resources
+C:\Users\lythi\OneDrive\Desktop\DoAnWin\nha tro\obj\Debug\nha_tro.DanhSachKhachTro.resources
+>>>>>>> d0da8c0c5e11d128929c59dbfe87aeedccbaf753

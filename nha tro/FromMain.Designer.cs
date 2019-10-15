@@ -41,12 +41,18 @@
             this.barButtonItem7 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem8 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem9 = new DevExpress.XtraBars.BarButtonItem();
+<<<<<<< HEAD
+=======
+            this.skinRibbonGalleryBarItem1 = new DevExpress.XtraBars.SkinRibbonGalleryBarItem();
+>>>>>>> d0da8c0c5e11d128929c59dbfe87aeedccbaf753
             this.ribbonPage1 = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.ribbonPageGroup1 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPage2 = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.ribbonPageGroup2 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPageGroup3 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPage3 = new DevExpress.XtraBars.Ribbon.RibbonPage();
+            this.ribbonPage4 = new DevExpress.XtraBars.Ribbon.RibbonPage();
+            this.ribbonPageGroup4 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.documentManager1 = new DevExpress.XtraBars.Docking2010.DocumentManager(this.components);
             this.tabbedView1 = new DevExpress.XtraBars.Docking2010.Views.Tabbed.TabbedView(this.components);
             this.defaultLookAndFeel1 = new DevExpress.LookAndFeel.DefaultLookAndFeel(this.components);
@@ -70,14 +76,20 @@
             this.barButtonItem6,
             this.barButtonItem7,
             this.barButtonItem8,
-            this.barButtonItem9});
+            this.barButtonItem9,
+            this.skinRibbonGalleryBarItem1});
             this.ribbonControl1.Location = new System.Drawing.Point(0, 0);
-            this.ribbonControl1.MaxItemId = 10;
+            this.ribbonControl1.MaxItemId = 11;
             this.ribbonControl1.Name = "ribbonControl1";
             this.ribbonControl1.Pages.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPage[] {
             this.ribbonPage2,
+<<<<<<< HEAD
             this.ribbonPage1,
             this.ribbonPage3});
+=======
+            this.ribbonPage3,
+            this.ribbonPage4});
+>>>>>>> d0da8c0c5e11d128929c59dbfe87aeedccbaf753
             this.ribbonControl1.Size = new System.Drawing.Size(848, 144);
             // 
             // imageCollection1
@@ -358,6 +370,7 @@
             this.barButtonItem4.RibbonStyle = ((DevExpress.XtraBars.Ribbon.RibbonItemStyles)(((DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large | DevExpress.XtraBars.Ribbon.RibbonItemStyles.SmallWithText) 
             | DevExpress.XtraBars.Ribbon.RibbonItemStyles.SmallWithoutText)));
             this.barButtonItem4.Visibility = DevExpress.XtraBars.BarItemVisibility.Never;
+            this.barButtonItem4.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem4_ItemClick);
             // 
             // barButtonItem5
             // 
@@ -396,6 +409,23 @@
             this.barButtonItem8.Name = "barButtonItem8";
             this.barButtonItem8.RibbonStyle = ((DevExpress.XtraBars.Ribbon.RibbonItemStyles)(((DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large | DevExpress.XtraBars.Ribbon.RibbonItemStyles.SmallWithText) 
             | DevExpress.XtraBars.Ribbon.RibbonItemStyles.SmallWithoutText)));
+            this.barButtonItem8.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem8_ItemClick);
+            // 
+            // barButtonItem9
+            // 
+            this.barButtonItem9.Caption = "Đăng kí thuê phòng";
+            this.barButtonItem9.Id = 9;
+            this.barButtonItem9.ImageIndex = 130;
+            this.barButtonItem9.Name = "barButtonItem9";
+            this.barButtonItem9.RibbonStyle = ((DevExpress.XtraBars.Ribbon.RibbonItemStyles)(((DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large | DevExpress.XtraBars.Ribbon.RibbonItemStyles.SmallWithText) 
+            | DevExpress.XtraBars.Ribbon.RibbonItemStyles.SmallWithoutText)));
+            this.barButtonItem9.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem9_ItemClick);
+            // 
+            // skinRibbonGalleryBarItem1
+            // 
+            this.skinRibbonGalleryBarItem1.Caption = "skinRibbonGalleryBarItem1";
+            this.skinRibbonGalleryBarItem1.Id = 10;
+            this.skinRibbonGalleryBarItem1.Name = "skinRibbonGalleryBarItem1";
             // 
             // barButtonItem9
             // 
@@ -437,7 +467,6 @@
             this.ribbonPageGroup2.ItemLinks.Add(this.barButtonItem4);
             this.ribbonPageGroup2.ItemLinks.Add(this.barButtonItem5);
             this.ribbonPageGroup2.ItemLinks.Add(this.barButtonItem6);
-            this.ribbonPageGroup2.ItemLinks.Add(this.barButtonItem7);
             this.ribbonPageGroup2.Name = "ribbonPageGroup2";
             this.ribbonPageGroup2.Text = "Quản Lý Phòng Trọ";
             // 
@@ -453,6 +482,20 @@
             this.ribbonPage3.ImageIndex = 0;
             this.ribbonPage3.Name = "ribbonPage3";
             this.ribbonPage3.Text = "Thống Kê";
+            // 
+            // ribbonPage4
+            // 
+            this.ribbonPage4.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
+            this.ribbonPageGroup4});
+            this.ribbonPage4.ImageIndex = 13;
+            this.ribbonPage4.Name = "ribbonPage4";
+            this.ribbonPage4.Text = "Tùy Biến Giao Diện";
+            // 
+            // ribbonPageGroup4
+            // 
+            this.ribbonPageGroup4.ItemLinks.Add(this.skinRibbonGalleryBarItem1);
+            this.ribbonPageGroup4.Name = "ribbonPageGroup4";
+            this.ribbonPageGroup4.Text = "Đổi giao diện";
             // 
             // documentManager1
             // 
@@ -503,6 +546,9 @@
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup3;
         private DevExpress.XtraBars.Ribbon.RibbonPage ribbonPage3;
         private DevExpress.XtraBars.BarButtonItem barButtonItem9;
+        private DevExpress.XtraBars.SkinRibbonGalleryBarItem skinRibbonGalleryBarItem1;
+        private DevExpress.XtraBars.Ribbon.RibbonPage ribbonPage4;
+        private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup4;
 
     }
 }
