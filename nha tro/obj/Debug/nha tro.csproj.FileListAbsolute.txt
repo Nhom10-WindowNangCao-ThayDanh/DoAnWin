@@ -22,3 +22,6 @@ C:\Users\lythi\OneDrive\Desktop\DoAnWin\nha tro\obj\Debug\nha tro.csproj.Generat
 C:\Users\lythi\OneDrive\Desktop\DoAnWin\nha tro\obj\Debug\nha tro.exe.licenses
 C:\Users\lythi\OneDrive\Desktop\DoAnWin\nha tro\obj\Debug\nha tro.exe
 C:\Users\lythi\OneDrive\Desktop\DoAnWin\nha tro\obj\Debug\nha tro.pdb
+C:\Users\lythi\OneDrive\Desktop\DoAnWin\nha tro\obj\Debug\nha tro.csprojResolveAssemblyReference.cache
+C:\Users\lythi\OneDrive\Desktop\DoAnWin\nha tro\obj\Debug\nha_tro.TraPhong.resources
+C:\Users\lythi\OneDrive\Desktop\DoAnWin\nha tro\obj\Debug\nha_tro.TinhTienPhong.resources
