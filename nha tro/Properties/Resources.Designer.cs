@@ -59,5 +59,15 @@ namespace nha_tro.Properties {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Gakuseisean_Ivista_2_Alarm_Tick {
+            get {
+                object obj = ResourceManager.GetObject("Gakuseisean-Ivista-2-Alarm-Tick", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }

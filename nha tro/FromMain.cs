@@ -93,6 +93,20 @@ namespace nha_tro
                 }
             }
         }
+
+        private void barButtonItem6_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            TraPhong TraPhong = new TraPhong();
+            TraPhong.MdiParent = this;
+            TraPhong.Show();
+        }
+
+        private void barButtonItem5_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            TinhTienPhong TinhTienPhong = new TinhTienPhong();
+            TinhTienPhong.MdiParent = this;
+            TinhTienPhong.Show();
+        }
     }
 
 }
