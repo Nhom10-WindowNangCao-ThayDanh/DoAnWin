@@ -63,6 +63,36 @@ namespace nha_tro.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Artdesigner_Urban_Stories_House {
+            get {
+                object obj = ResourceManager.GetObject("Artdesigner-Urban-Stories-House", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Double_J_Design_Origami_Colored_Pencil_Blue_home {
+            get {
+                object obj = ResourceManager.GetObject("Double-J-Design-Origami-Colored-Pencil-Blue-home", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Double_J_Design_Origami_Colored_Pencil_Red_home {
+            get {
+                object obj = ResourceManager.GetObject("Double-J-Design-Origami-Colored-Pencil-Red-home", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Gakuseisean_Ivista_2_Alarm_Tick {
             get {
                 object obj = ResourceManager.GetObject("Gakuseisean-Ivista-2-Alarm-Tick", resourceCulture);

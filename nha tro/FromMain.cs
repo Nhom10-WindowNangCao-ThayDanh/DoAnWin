@@ -114,6 +114,20 @@ namespace nha_tro
             DangKyThuePhong.MdiParent = this;
             DangKyThuePhong.Show();
         }
+
+        private void barButtonItem4_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            TrangThaiPhong TrangThaiPhong = new TrangThaiPhong();
+            TrangThaiPhong.MdiParent = this;
+            TrangThaiPhong.Show();
+        }
+
+        private void barButtonItem8_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            DanhSachKhachTro DanhSachKhachTro = new DanhSachKhachTro();
+            DanhSachKhachTro.MdiParent = this;
+            DanhSachKhachTro.Show();
+        }
     }
 
 }

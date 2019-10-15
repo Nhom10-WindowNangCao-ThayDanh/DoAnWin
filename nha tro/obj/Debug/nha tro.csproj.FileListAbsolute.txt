@@ -18,3 +18,6 @@ C:\Users\lythi\OneDrive\Desktop\DoAnWin\nha tro\obj\Debug\nha tro.pdb
 C:\Users\Admin\Documents\GitHub\DoAnWin\nha tro\bin\Debug\nha tro.exe.config
 C:\Users\Admin\Documents\GitHub\DoAnWin\nha tro\obj\Debug\nha tro.exe
 C:\Users\Admin\Documents\GitHub\DoAnWin\nha tro\obj\Debug\nha tro.pdb
+C:\Users\lythi\OneDrive\Desktop\DoAnWin\nha tro\obj\Debug\nha tro.csprojResolveAssemblyReference.cache
+C:\Users\lythi\OneDrive\Desktop\DoAnWin\nha tro\obj\Debug\nha_tro.TrangThaiPhong.resources
+C:\Users\lythi\OneDrive\Desktop\DoAnWin\nha tro\obj\Debug\nha_tro.DanhSachKhachTro.resources
