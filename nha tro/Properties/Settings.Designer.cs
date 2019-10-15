@@ -47,17 +47,6 @@ namespace nha_tro.Properties {
             }
         }
         
-        [global::System.Configuration.ApplicationScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-311GUAJ\\SQLEXPRESS;Initial Catalog=QUANLINHATRO;User ID=sa;Pa" +
-            "ssword=sa2012")]
-        public string QUANLINHATROConnectionString {
-            get {
-                return ((string)(this["QUANLINHATROConnectionString"]));
-            }
-        }
-        
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("0, 0")]
@@ -67,6 +56,28 @@ namespace nha_tro.Properties {
             }
             set {
                 this["FormSize"] = value;
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-31GUAJ\\SQLEXPRESS;Initial Catalog=QUANLINHATRO;User ID=sa;Pas" +
+            "sword=sa2012")]
+        public string QUANLINHATROConnectionString {
+            get {
+                return ((string)(this["QUANLINHATROConnectionString"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-311GUAJ\\SQLEXPRESS;Initial Catalog=QUANLINHATRO;User ID=sa;Pa" +
+            "ssword=sa2012")]
+        public string QUANLINHATROConnectionString1 {
+            get {
+                return ((string)(this["QUANLINHATROConnectionString1"]));
             }
         }
     }

@@ -107,6 +107,13 @@ namespace nha_tro
             TinhTienPhong.MdiParent = this;
             TinhTienPhong.Show();
         }
+
+        private void barButtonItem9_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            DangKyThuePhong DangKyThuePhong = new DangKyThuePhong();
+            DangKyThuePhong.MdiParent = this;
+            DangKyThuePhong.Show();
+        }
     }
 
 }

@@ -76,6 +76,12 @@
     <Compile Include="CauHinhSQL.Designer.cs">
       <DependentUpon>CauHinhSQL.cs</DependentUpon>
     </Compile>
+    <Compile Include="DangKyThuePhong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DangKyThuePhong.Designer.cs">
+      <DependentUpon>DangKyThuePhong.cs</DependentUpon>
+    </Compile>
     <Compile Include="DangNhap.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -131,6 +137,9 @@
     </Compile>
     <EmbeddedResource Include="CauHinhSQL.resx">
       <DependentUpon>CauHinhSQL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DangKyThuePhong.resx">
+      <DependentUpon>DangKyThuePhong.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="DangNhap.resx">
       <DependentUpon>DangNhap.cs</DependentUpon>
