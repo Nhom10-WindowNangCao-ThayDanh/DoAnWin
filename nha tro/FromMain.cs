@@ -128,6 +128,13 @@ namespace nha_tro
             DanhSachKhachTro.MdiParent = this;
             DanhSachKhachTro.Show();
         }
+
+        private void barButtonItem10_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            DanhSachKhachTro DanhSachKhachTro = new DanhSachKhachTro();
+            DanhSachKhachTro.MdiParent = this;
+            DanhSachKhachTro.Show();
+        }
     }
 
 }

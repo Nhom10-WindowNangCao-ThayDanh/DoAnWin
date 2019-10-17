@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="DataClassesLinQ">
+  <DataContextMoniker Name="/DataClassesLinQDataContext" />
+  <nestedChildShapes>
+    <classShape Id="4e5543ad-b1ff-4aba-83f6-9aadf11c1b35" absoluteBounds="0.75, 5.375, 2, 1.7708968098958327">
+      <DataClassMoniker Name="/DataClassesLinQDataContext/Phong" />
+      <nestedChildShapes>
+        <elementListCompartment Id="532f7402-b8d4-4dee-97fd-98272b1157db" absoluteBounds="0.765, 5.835, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a61fb639-30fe-4a3b-9597-c712b897c8eb" absoluteBounds="3.5, 1, 2, 2.5401025390625005">
+      <DataClassMoniker Name="/DataClassesLinQDataContext/HOPDONG" />
+      <nestedChildShapes>
+        <elementListCompartment Id="09899349-cefa-4683-8b85-66ef0607de9b" absoluteBounds="3.515, 1.46, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.75 : 6.26044840494792); (4.5 : 6.26044840494792); (4.5 : 3.5401025390625)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DataClassesLinQDataContext/Phong/Phong_HOPDONG" />
+      <nodes>
+        <classShapeMoniker Id="4e5543ad-b1ff-4aba-83f6-9aadf11c1b35" />
+        <classShapeMoniker Id="a61fb639-30fe-4a3b-9597-c712b897c8eb" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="191aeb1b-1b74-4982-b0b9-18808339ac9f" absoluteBounds="6.625, 2.5, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/DataClassesLinQDataContext/KHACHTHUE" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4d5ba8ec-72bc-4bb7-826a-f072e4fcdf57" absoluteBounds="6.64, 2.96, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(6.625 : 3.02005126953125); (5.5 : 3.02005126953125)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DataClassesLinQDataContext/KHACHTHUE/KHACHTHUE_HOPDONG" />
+      <nodes>
+        <classShapeMoniker Id="191aeb1b-1b74-4982-b0b9-18808339ac9f" />
+        <classShapeMoniker Id="a61fb639-30fe-4a3b-9597-c712b897c8eb" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
