@@ -88,9 +88,15 @@
             this.ribbonControl1.Pages.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPage[] {
             this.ribbonPage2,
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.ribbonPage5,
 =======
 <<<<<<< HEAD
+            this.ribbonPage1,
+            this.ribbonPage3});
+=======
+>>>>>>> b718a60f6003bc607e5895ab08b7a82b4a34998d
+=======
             this.ribbonPage1,
             this.ribbonPage3});
 =======

@@ -39,8 +39,12 @@ C:\Users\lythi\OneDrive\Desktop\DoAnWin\nha tro\obj\Debug\nha tro.csprojResolveA
 C:\Users\lythi\OneDrive\Desktop\DoAnWin\nha tro\obj\Debug\nha_tro.TrangThaiPhong.resources
 C:\Users\lythi\OneDrive\Desktop\DoAnWin\nha tro\obj\Debug\nha_tro.DanhSachKhachTro.resources
 <<<<<<< HEAD
+<<<<<<< HEAD
 C:\Users\lythi\OneDrive\Desktop\DoAnWin\nha tro\obj\Debug\nha_tro.PrintRibbonControllerResources.resources
 C:\Users\lythi\OneDrive\Desktop\DoAnWin\nha tro\obj\Debug\nha_tro.XRDesignRibbonControllerResources.resources
+=======
+>>>>>>> d0da8c0c5e11d128929c59dbfe87aeedccbaf753
+>>>>>>> b718a60f6003bc607e5895ab08b7a82b4a34998d
 =======
 >>>>>>> d0da8c0c5e11d128929c59dbfe87aeedccbaf753
 >>>>>>> b718a60f6003bc607e5895ab08b7a82b4a34998d
