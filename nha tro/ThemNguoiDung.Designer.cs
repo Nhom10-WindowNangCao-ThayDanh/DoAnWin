@@ -57,33 +57,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.hoatDongCheckEdit.Properties)).BeginInit();
             this.SuspendLayout();
             // 
-            // tendangnhapLabel
-            // 
-            tendangnhapLabel.AutoSize = true;
-            tendangnhapLabel.Location = new System.Drawing.Point(512, 125);
-            tendangnhapLabel.Name = "tendangnhapLabel";
-            tendangnhapLabel.Size = new System.Drawing.Size(73, 13);
-            tendangnhapLabel.TabIndex = 1;
-            tendangnhapLabel.Text = "tendangnhap:";
-            // 
-            // matkhauLabel
-            // 
-            matkhauLabel.AutoSize = true;
-            matkhauLabel.Location = new System.Drawing.Point(512, 151);
-            matkhauLabel.Name = "matkhauLabel";
-            matkhauLabel.Size = new System.Drawing.Size(51, 13);
-            matkhauLabel.TabIndex = 3;
-            matkhauLabel.Text = "matkhau:";
-            // 
-            // hoatDongLabel
-            // 
-            hoatDongLabel.AutoSize = true;
-            hoatDongLabel.Location = new System.Drawing.Point(512, 177);
-            hoatDongLabel.Name = "hoatDongLabel";
-            hoatDongLabel.Size = new System.Drawing.Size(62, 13);
-            hoatDongLabel.TabIndex = 5;
-            hoatDongLabel.Text = "Hoat Dong:";
-            // 
             // dataSet1
             // 
             this.dataSet1.DataSetName = "DataSet1";
@@ -101,12 +74,10 @@
             // tableAdapterManager
             // 
             this.tableAdapterManager.BackupDataSetBeforeUpdate = false;
-            this.tableAdapterManager.HOPDONGTableAdapter = null;
             this.tableAdapterManager.NguoiDungNhomNguoiDung_DkTableAdapter = null;
             this.tableAdapterManager.NguoiDungNhomNguoiDungTableAdapter = null;
             this.tableAdapterManager.NguoiDungTableAdapter = this.nguoiDungTableAdapter;
             this.tableAdapterManager.NhomNguoiDungTableAdapter = null;
-            this.tableAdapterManager.PhanQuyenTableAdapter = null;
             this.tableAdapterManager.UpdateOrder = nha_tro.DataSet1TableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
             // 
             // nguoiDungDataGridView
@@ -120,7 +91,7 @@
             this.nguoiDungDataGridView.DataSource = this.nguoiDungBindingSource;
             this.nguoiDungDataGridView.Location = new System.Drawing.Point(12, 84);
             this.nguoiDungDataGridView.Name = "nguoiDungDataGridView";
-            this.nguoiDungDataGridView.Size = new System.Drawing.Size(334, 220);
+            this.nguoiDungDataGridView.Size = new System.Drawing.Size(300, 220);
             this.nguoiDungDataGridView.TabIndex = 1;
             // 
             // dataGridViewTextBoxColumn1
@@ -141,6 +112,15 @@
             this.dataGridViewCheckBoxColumn1.HeaderText = "HoatDong";
             this.dataGridViewCheckBoxColumn1.Name = "dataGridViewCheckBoxColumn1";
             // 
+            // tendangnhapLabel
+            // 
+            tendangnhapLabel.AutoSize = true;
+            tendangnhapLabel.Location = new System.Drawing.Point(512, 125);
+            tendangnhapLabel.Name = "tendangnhapLabel";
+            tendangnhapLabel.Size = new System.Drawing.Size(73, 13);
+            tendangnhapLabel.TabIndex = 1;
+            tendangnhapLabel.Text = "tendangnhap:";
+            // 
             // tendangnhapTextEdit
             // 
             this.tendangnhapTextEdit.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.nguoiDungBindingSource, "tendangnhap", true));
@@ -149,6 +129,15 @@
             this.tendangnhapTextEdit.Size = new System.Drawing.Size(100, 20);
             this.tendangnhapTextEdit.TabIndex = 2;
             // 
+            // matkhauLabel
+            // 
+            matkhauLabel.AutoSize = true;
+            matkhauLabel.Location = new System.Drawing.Point(512, 151);
+            matkhauLabel.Name = "matkhauLabel";
+            matkhauLabel.Size = new System.Drawing.Size(51, 13);
+            matkhauLabel.TabIndex = 3;
+            matkhauLabel.Text = "matkhau:";
+            // 
             // matkhauTextEdit
             // 
             this.matkhauTextEdit.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.nguoiDungBindingSource, "matkhau", true));
@@ -156,6 +145,15 @@
             this.matkhauTextEdit.Name = "matkhauTextEdit";
             this.matkhauTextEdit.Size = new System.Drawing.Size(100, 20);
             this.matkhauTextEdit.TabIndex = 4;
+            // 
+            // hoatDongLabel
+            // 
+            hoatDongLabel.AutoSize = true;
+            hoatDongLabel.Location = new System.Drawing.Point(512, 177);
+            hoatDongLabel.Name = "hoatDongLabel";
+            hoatDongLabel.Size = new System.Drawing.Size(62, 13);
+            hoatDongLabel.TabIndex = 5;
+            hoatDongLabel.Text = "Hoat Dong:";
             // 
             // hoatDongCheckEdit
             // 

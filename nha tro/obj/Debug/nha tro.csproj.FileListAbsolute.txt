@@ -4,47 +4,16 @@ C:\Users\lythi\OneDrive\Desktop\DoAnWin\nha tro\bin\Debug\nha tro.pdb
 C:\Users\lythi\OneDrive\Desktop\DoAnWin\nha tro\obj\Debug\nha_tro.CauHinhSQL.resources
 C:\Users\lythi\OneDrive\Desktop\DoAnWin\nha tro\obj\Debug\nha_tro.DangKyThuePhong.resources
 C:\Users\lythi\OneDrive\Desktop\DoAnWin\nha tro\obj\Debug\nha_tro.DangNhap.resources
+C:\Users\lythi\OneDrive\Desktop\DoAnWin\nha tro\obj\Debug\nha_tro.DanhSachKhachTro.resources
 C:\Users\lythi\OneDrive\Desktop\DoAnWin\nha tro\obj\Debug\nha_tro.PhanQuyen.resources
 C:\Users\lythi\OneDrive\Desktop\DoAnWin\nha tro\obj\Debug\nha_tro.Properties.Resources.resources
 C:\Users\lythi\OneDrive\Desktop\DoAnWin\nha tro\obj\Debug\nha_tro.ThemNguoiDung.resources
 C:\Users\lythi\OneDrive\Desktop\DoAnWin\nha tro\obj\Debug\nha_tro.ThemNguoiDungVaoNhom.resources
-C:\Users\lythi\OneDrive\Desktop\DoAnWin\nha tro\obj\Debug\nha_tro.FromMain.resources
 C:\Users\lythi\OneDrive\Desktop\DoAnWin\nha tro\obj\Debug\nha_tro.TinhTienPhong.resources
+C:\Users\lythi\OneDrive\Desktop\DoAnWin\nha tro\obj\Debug\nha_tro.TrangThaiPhong.resources
 C:\Users\lythi\OneDrive\Desktop\DoAnWin\nha tro\obj\Debug\nha_tro.TraPhong.resources
 C:\Users\lythi\OneDrive\Desktop\DoAnWin\nha tro\obj\Debug\nha tro.csproj.GenerateResource.Cache
 C:\Users\lythi\OneDrive\Desktop\DoAnWin\nha tro\obj\Debug\nha tro.exe.licenses
 C:\Users\lythi\OneDrive\Desktop\DoAnWin\nha tro\obj\Debug\nha tro.exe
 C:\Users\lythi\OneDrive\Desktop\DoAnWin\nha tro\obj\Debug\nha tro.pdb
-C:\Users\Admin\Documents\GitHub\DoAnWin\nha tro\bin\Debug\nha tro.exe.config
-C:\Users\Admin\Documents\GitHub\DoAnWin\nha tro\obj\Debug\nha tro.exe
-C:\Users\Admin\Documents\GitHub\DoAnWin\nha tro\obj\Debug\nha tro.pdb
-<<<<<<< HEAD
-C:\Users\Admin\Documents\GitHub\DoAnWin\nha tro\obj\Debug\nha tro.csprojResolveAssemblyReference.cache
-C:\Users\Admin\Documents\GitHub\DoAnWin\nha tro\obj\Debug\nha_tro.CauHinhSQL.resources
-C:\Users\Admin\Documents\GitHub\DoAnWin\nha tro\obj\Debug\nha_tro.DangKyThuePhong.resources
-C:\Users\Admin\Documents\GitHub\DoAnWin\nha tro\obj\Debug\nha_tro.DangNhap.resources
-C:\Users\Admin\Documents\GitHub\DoAnWin\nha tro\obj\Debug\nha_tro.PhanQuyen.resources
-C:\Users\Admin\Documents\GitHub\DoAnWin\nha tro\obj\Debug\nha_tro.Properties.Resources.resources
-C:\Users\Admin\Documents\GitHub\DoAnWin\nha tro\obj\Debug\nha_tro.ThemNguoiDung.resources
-C:\Users\Admin\Documents\GitHub\DoAnWin\nha tro\obj\Debug\nha_tro.ThemNguoiDungVaoNhom.resources
-C:\Users\Admin\Documents\GitHub\DoAnWin\nha tro\obj\Debug\nha_tro.FromMain.resources
-C:\Users\Admin\Documents\GitHub\DoAnWin\nha tro\obj\Debug\nha_tro.TinhTienPhong.resources
-C:\Users\Admin\Documents\GitHub\DoAnWin\nha tro\obj\Debug\nha_tro.TraPhong.resources
-C:\Users\Admin\Documents\GitHub\DoAnWin\nha tro\obj\Debug\nha tro.csproj.GenerateResource.Cache
-C:\Users\Admin\Documents\GitHub\DoAnWin\nha tro\obj\Debug\nha tro.exe.licenses
-C:\Users\Admin\Documents\GitHub\DoAnWin\nha tro\bin\Debug\nha tro.exe
-C:\Users\Admin\Documents\GitHub\DoAnWin\nha tro\bin\Debug\nha tro.pdb
-=======
-C:\Users\lythi\OneDrive\Desktop\DoAnWin\nha tro\obj\Debug\nha tro.csprojResolveAssemblyReference.cache
-C:\Users\lythi\OneDrive\Desktop\DoAnWin\nha tro\obj\Debug\nha_tro.TrangThaiPhong.resources
-C:\Users\lythi\OneDrive\Desktop\DoAnWin\nha tro\obj\Debug\nha_tro.DanhSachKhachTro.resources
-<<<<<<< HEAD
-<<<<<<< HEAD
-C:\Users\lythi\OneDrive\Desktop\DoAnWin\nha tro\obj\Debug\nha_tro.PrintRibbonControllerResources.resources
-C:\Users\lythi\OneDrive\Desktop\DoAnWin\nha tro\obj\Debug\nha_tro.XRDesignRibbonControllerResources.resources
-=======
->>>>>>> d0da8c0c5e11d128929c59dbfe87aeedccbaf753
->>>>>>> b718a60f6003bc607e5895ab08b7a82b4a34998d
-=======
->>>>>>> d0da8c0c5e11d128929c59dbfe87aeedccbaf753
->>>>>>> b718a60f6003bc607e5895ab08b7a82b4a34998d
+C:\Users\lythi\OneDrive\Desktop\DoAnWin\nha tro\obj\Debug\nha_tro.FromMain.resources

@@ -11,6 +11,7 @@ using DevExpress.XtraEditors;
 using System.Collections;
 using DevExpress.XtraBars.Ribbon;
 using DevExpress.XtraBars;
+
 namespace nha_tro
 {
     public partial class FromMain : DevExpress.XtraEditors.XtraForm
@@ -44,11 +45,11 @@ namespace nha_tro
 
         //====nhan ten dang nhap tu form dang nhap
         private string tendn;
-        public FromMain(string Message): this()
+        public FromMain(string Message) : this()
         {
             tendn = Message;
         }
-        //=============================================
+
         private void FromMain_Load(object sender, EventArgs e)
         {
             //====nhan ten dang nhap tu form dang nhap
@@ -71,7 +72,6 @@ namespace nha_tro
                     }
                 }
             }
-            
         }
         public void getAlwayBarButton(string nameBarbtn)
         {
@@ -94,11 +94,11 @@ namespace nha_tro
             }
         }
 
-        private void barButtonItem6_ItemClick(object sender, ItemClickEventArgs e)
+        private void barButtonItem4_ItemClick(object sender, ItemClickEventArgs e)
         {
-            TraPhong TraPhong = new TraPhong();
-            TraPhong.MdiParent = this;
-            TraPhong.Show();
+            TrangThaiPhong TrangThaiPhong = new TrangThaiPhong();
+            TrangThaiPhong.MdiParent = this;
+            TrangThaiPhong.Show();
         }
 
         private void barButtonItem5_ItemClick(object sender, ItemClickEventArgs e)
@@ -108,33 +108,33 @@ namespace nha_tro
             TinhTienPhong.Show();
         }
 
-        private void barButtonItem9_ItemClick(object sender, ItemClickEventArgs e)
+        private void barButtonItem6_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            TraPhong TraPhong = new TraPhong();
+            TraPhong.MdiParent = this;
+            TraPhong.Show();
+        }
+
+        private void barButtonItem7_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            DanhSachKhachTro DanhSachKhachTro = new DanhSachKhachTro();
+            DanhSachKhachTro.MdiParent = this;
+            DanhSachKhachTro.Show();
+        }
+
+        private void barButtonItem8_ItemClick(object sender, ItemClickEventArgs e)
         {
             DangKyThuePhong DangKyThuePhong = new DangKyThuePhong();
             DangKyThuePhong.MdiParent = this;
             DangKyThuePhong.Show();
         }
 
-        private void barButtonItem4_ItemClick(object sender, ItemClickEventArgs e)
-        {
-            TrangThaiPhong TrangThaiPhong = new TrangThaiPhong();
-            TrangThaiPhong.MdiParent = this;
-            TrangThaiPhong.Show();
-        }
 
-        private void barButtonItem8_ItemClick(object sender, ItemClickEventArgs e)
-        {
-            DanhSachKhachTro DanhSachKhachTro = new DanhSachKhachTro();
-            DanhSachKhachTro.MdiParent = this;
-            DanhSachKhachTro.Show();
-        }
 
-        private void barButtonItem10_ItemClick(object sender, ItemClickEventArgs e)
-        {
-            DanhSachKhachTro DanhSachKhachTro = new DanhSachKhachTro();
-            DanhSachKhachTro.MdiParent = this;
-            DanhSachKhachTro.Show();
-        }
+
+
+
+
+
     }
-
 }

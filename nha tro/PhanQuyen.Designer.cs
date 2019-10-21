@@ -33,7 +33,6 @@
             this.phanQuyenBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.phanQuyenTableAdapter = new nha_tro.DataSet1TableAdapters.PhanQuyenTableAdapter();
             this.tableAdapterManager = new nha_tro.DataSet1TableAdapters.TableAdapterManager();
-            this.nhomNguoiDungTableAdapter = new nha_tro.DataSet1TableAdapters.NhomNguoiDungTableAdapter();
             this.button1 = new System.Windows.Forms.Button();
             this.phanQuyenDKBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.phanQuyenDKTableAdapter = new nha_tro.DataSet1TableAdapters.PhanQuyenDKTableAdapter();
@@ -42,6 +41,7 @@
             this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewCheckBoxColumn2 = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             this.nhomNguoiDungBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.nhomNguoiDungTableAdapter = new nha_tro.DataSet1TableAdapters.NhomNguoiDungTableAdapter();
             this.nhomNguoiDungDataGridView = new System.Windows.Forms.DataGridView();
             this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -71,17 +71,12 @@
             // tableAdapterManager
             // 
             this.tableAdapterManager.BackupDataSetBeforeUpdate = false;
-            this.tableAdapterManager.HOPDONGTableAdapter = null;
             this.tableAdapterManager.NguoiDungNhomNguoiDung_DkTableAdapter = null;
             this.tableAdapterManager.NguoiDungNhomNguoiDungTableAdapter = null;
             this.tableAdapterManager.NguoiDungTableAdapter = null;
             this.tableAdapterManager.NhomNguoiDungTableAdapter = this.nhomNguoiDungTableAdapter;
             this.tableAdapterManager.PhanQuyenTableAdapter = this.phanQuyenTableAdapter;
             this.tableAdapterManager.UpdateOrder = nha_tro.DataSet1TableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
-            // 
-            // nhomNguoiDungTableAdapter
-            // 
-            this.nhomNguoiDungTableAdapter.ClearBeforeFill = true;
             // 
             // button1
             // 
@@ -111,7 +106,7 @@
             this.dataGridViewTextBoxColumn4,
             this.dataGridViewCheckBoxColumn2});
             this.phanQuyenDKDataGridView.DataSource = this.phanQuyenDKBindingSource;
-            this.phanQuyenDKDataGridView.Location = new System.Drawing.Point(390, 114);
+            this.phanQuyenDKDataGridView.Location = new System.Drawing.Point(347, 114);
             this.phanQuyenDKDataGridView.Name = "phanQuyenDKDataGridView";
             this.phanQuyenDKDataGridView.Size = new System.Drawing.Size(355, 220);
             this.phanQuyenDKDataGridView.TabIndex = 3;
@@ -138,6 +133,10 @@
             // 
             this.nhomNguoiDungBindingSource.DataMember = "NhomNguoiDung";
             this.nhomNguoiDungBindingSource.DataSource = this.dataSet1;
+            // 
+            // nhomNguoiDungTableAdapter
+            // 
+            this.nhomNguoiDungTableAdapter.ClearBeforeFill = true;
             // 
             // nhomNguoiDungDataGridView
             // 

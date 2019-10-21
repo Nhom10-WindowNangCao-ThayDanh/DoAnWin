@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
 using System.Data.Sql;
-
+using Microsoft.SqlServer.Management.Smo;
 namespace nha_tro
 {
     public partial class CauHinhSQL : Form
