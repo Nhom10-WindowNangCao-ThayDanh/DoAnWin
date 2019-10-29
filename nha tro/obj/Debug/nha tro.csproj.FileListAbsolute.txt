@@ -1,10 +1,9 @@
 C:\Users\lythi\OneDrive\Desktop\DoAnWin\nha tro\bin\Debug\nha tro.exe.config
-C:\Users\lythi\OneDrive\Desktop\DoAnWin\nha tro\bin\Debug\nha tro.exe
-C:\Users\lythi\OneDrive\Desktop\DoAnWin\nha tro\bin\Debug\nha tro.pdb
+C:\Users\lythi\OneDrive\Desktop\DoAnWin\nha tro\obj\Debug\nha tro.csprojResolveAssemblyReference.cache
 C:\Users\lythi\OneDrive\Desktop\DoAnWin\nha tro\obj\Debug\nha_tro.CauHinhSQL.resources
 C:\Users\lythi\OneDrive\Desktop\DoAnWin\nha tro\obj\Debug\nha_tro.DangKyThuePhong.resources
 C:\Users\lythi\OneDrive\Desktop\DoAnWin\nha tro\obj\Debug\nha_tro.DangNhap.resources
-C:\Users\lythi\OneDrive\Desktop\DoAnWin\nha tro\obj\Debug\nha_tro.DanhSachKhachTro.resources
+C:\Users\lythi\OneDrive\Desktop\DoAnWin\nha tro\obj\Debug\nha_tro.FromMain.resources
 C:\Users\lythi\OneDrive\Desktop\DoAnWin\nha tro\obj\Debug\nha_tro.PhanQuyen.resources
 C:\Users\lythi\OneDrive\Desktop\DoAnWin\nha tro\obj\Debug\nha_tro.Properties.Resources.resources
 C:\Users\lythi\OneDrive\Desktop\DoAnWin\nha tro\obj\Debug\nha_tro.ThemNguoiDung.resources
@@ -14,6 +13,7 @@ C:\Users\lythi\OneDrive\Desktop\DoAnWin\nha tro\obj\Debug\nha_tro.TrangThaiPhong
 C:\Users\lythi\OneDrive\Desktop\DoAnWin\nha tro\obj\Debug\nha_tro.TraPhong.resources
 C:\Users\lythi\OneDrive\Desktop\DoAnWin\nha tro\obj\Debug\nha tro.csproj.GenerateResource.Cache
 C:\Users\lythi\OneDrive\Desktop\DoAnWin\nha tro\obj\Debug\nha tro.exe.licenses
+C:\Users\lythi\OneDrive\Desktop\DoAnWin\nha tro\bin\Debug\nha tro.exe
+C:\Users\lythi\OneDrive\Desktop\DoAnWin\nha tro\bin\Debug\nha tro.pdb
 C:\Users\lythi\OneDrive\Desktop\DoAnWin\nha tro\obj\Debug\nha tro.exe
 C:\Users\lythi\OneDrive\Desktop\DoAnWin\nha tro\obj\Debug\nha tro.pdb
-C:\Users\lythi\OneDrive\Desktop\DoAnWin\nha tro\obj\Debug\nha_tro.FromMain.resources

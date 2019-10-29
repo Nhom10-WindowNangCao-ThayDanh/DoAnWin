@@ -124,9 +124,9 @@ namespace nha_tro
 
         private void barButtonItem8_ItemClick(object sender, ItemClickEventArgs e)
         {
-            DangKyThuePhong DangKyThuePhong = new DangKyThuePhong();
-            DangKyThuePhong.MdiParent = this;
-            DangKyThuePhong.Show();
+            DangKyThuePhong DangKyThuePhong = new DangKyThuePhong(tendn);
+            //DangKyThuePhong.MdiParent = this;
+            DangKyThuePhong.ShowDialog();
         }
 
 

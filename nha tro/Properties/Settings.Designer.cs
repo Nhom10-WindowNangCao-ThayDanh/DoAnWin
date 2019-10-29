@@ -37,7 +37,8 @@ namespace nha_tro.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-311GUAJ\\SQLEXPRESS;Initial Catalog=nhaTro;User ID=sa;Password" +
+            "=sa2012")]
         public string KetnoiSQL {
             get {
                 return ((string)(this["KetnoiSQL"]));
@@ -62,8 +63,19 @@ namespace nha_tro.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-31GUAJ\\SQLEXPRESS;Initial Catalog=QUANLINHATRO;User ID=sa;Pas" +
-            "sword=sa2012")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-311GUAJ\\SQLEXPRESS;Initial Catalog=nhaTro;User ID=sa;Password" +
+            "=sa2012")]
+        public string QUANLINHATROConnectionString1 {
+            get {
+                return ((string)(this["QUANLINHATROConnectionString1"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-311GUAJ\\SQLEXPRESS;Initial Catalog=nhaTro;User ID=sa;Password" +
+            "=sa2012")]
         public string QUANLINHATROConnectionString {
             get {
                 return ((string)(this["QUANLINHATROConnectionString"]));
@@ -73,11 +85,11 @@ namespace nha_tro.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-311GUAJ\\SQLEXPRESS;Initial Catalog=QUANLINHATRO;User ID=sa;Pa" +
-            "ssword=sa2012")]
-        public string QUANLINHATROConnectionString1 {
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-311GUAJ\\SQLEXPRESS;Initial Catalog=nhaTro;User ID=sa;Password" +
+            "=sa2012")]
+        public string nhaTroConnectionString {
             get {
-                return ((string)(this["QUANLINHATROConnectionString1"]));
+                return ((string)(this["nhaTroConnectionString"]));
             }
         }
     }

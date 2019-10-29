@@ -17,12 +17,5 @@ namespace nha_tro
         {
             InitializeComponent();
         }
-
-        private void DanhSachKhachTro_Load(object sender, EventArgs e)
-        {
-            // TODO: This line of code loads data into the 'dataSet1.kt_hd_p' table. You can move, or remove it, as needed.
-            this.kt_hd_pTableAdapter.Fill_DK(this.dataSet1.kt_hd_p);
-
-        }
     }
 }
