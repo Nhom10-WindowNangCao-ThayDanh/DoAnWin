@@ -58,6 +58,7 @@
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
     <Reference Include="System.DirectoryServices" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -93,6 +94,11 @@
     </Compile>
     <Compile Include="DanhSachKhachTro.Designer.cs">
       <DependentUpon>DanhSachKhachTro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DanhSachKhachTro1.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DanhSachKhachTro.dbml</DependentUpon>
     </Compile>
     <Compile Include="DataSet1.cs">
       <DependentUpon>DataSet1.xsd</DependentUpon>
@@ -161,6 +167,12 @@
     <EmbeddedResource Include="DangNhap.resx">
       <DependentUpon>DangNhap.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="DanhSachKhachTro.dbml.layout">
+      <DependentUpon>DanhSachKhachTro.dbml</DependentUpon>
+    </None>
+    <EmbeddedResource Include="DanhSachKhachTro.resx">
+      <DependentUpon>DanhSachKhachTro.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FromMain.resx">
       <DependentUpon>FromMain.cs</DependentUpon>
     </EmbeddedResource>
@@ -193,6 +205,11 @@
     <EmbeddedResource Include="TraPhong.resx">
       <DependentUpon>TraPhong.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="DanhSachKhachTro.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>DanhSachKhachTro1.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
     <None Include="DataSet1.xsc">
       <DependentUpon>DataSet1.xsd</DependentUpon>
     </None>
@@ -241,6 +258,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Double-J-Design-Origami-Colored-Pencil-Blue-home.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
