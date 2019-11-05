@@ -1,0 +1,5 @@
+C:\Users\lythi\OneDrive\Desktop\DoAnWin\ThietKeControl\bin\Debug\ThietKeControl.dll
+C:\Users\lythi\OneDrive\Desktop\DoAnWin\ThietKeControl\bin\Debug\ThietKeControl.pdb
+C:\Users\lythi\OneDrive\Desktop\DoAnWin\ThietKeControl\obj\Debug\ThietKeControl.csprojResolveAssemblyReference.cache
+C:\Users\lythi\OneDrive\Desktop\DoAnWin\ThietKeControl\obj\Debug\ThietKeControl.dll
+C:\Users\lythi\OneDrive\Desktop\DoAnWin\ThietKeControl\obj\Debug\ThietKeControl.pdb

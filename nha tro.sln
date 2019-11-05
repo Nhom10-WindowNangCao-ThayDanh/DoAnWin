@@ -3,6 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nha tro", "nha tro\nha tro.csproj", "{E1681964-F42C-40A5-965A-02A5B7ED7FD6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThietKeControl", "ThietKeControl\ThietKeControl.csproj", "{5D9E3EB2-AC72-4B1D-955E-D8A12BBB0378}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConTrol_TrangThaiPhong", "ConTrol_TrangThaiPhong\ConTrol_TrangThaiPhong.csproj", "{6937144A-12BE-4399-9367-EA83ACAC5DE9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +17,14 @@ Global
 		{E1681964-F42C-40A5-965A-02A5B7ED7FD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E1681964-F42C-40A5-965A-02A5B7ED7FD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E1681964-F42C-40A5-965A-02A5B7ED7FD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D9E3EB2-AC72-4B1D-955E-D8A12BBB0378}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D9E3EB2-AC72-4B1D-955E-D8A12BBB0378}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D9E3EB2-AC72-4B1D-955E-D8A12BBB0378}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D9E3EB2-AC72-4B1D-955E-D8A12BBB0378}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6937144A-12BE-4399-9367-EA83ACAC5DE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6937144A-12BE-4399-9367-EA83ACAC5DE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6937144A-12BE-4399-9367-EA83ACAC5DE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6937144A-12BE-4399-9367-EA83ACAC5DE9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

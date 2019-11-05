@@ -1,0 +1,10 @@
+C:\Users\lythi\OneDrive\Desktop\DoAnWin\ConTrol_TrangThaiPhong\bin\Debug\ConTrol_TrangThaiPhong.dll.config
+C:\Users\lythi\OneDrive\Desktop\DoAnWin\ConTrol_TrangThaiPhong\bin\Debug\ConTrol_TrangThaiPhong.dll
+C:\Users\lythi\OneDrive\Desktop\DoAnWin\ConTrol_TrangThaiPhong\bin\Debug\ConTrol_TrangThaiPhong.pdb
+C:\Users\lythi\OneDrive\Desktop\DoAnWin\ConTrol_TrangThaiPhong\obj\Debug\ConTrol_TrangThaiPhong.Properties.Resources.resources
+C:\Users\lythi\OneDrive\Desktop\DoAnWin\ConTrol_TrangThaiPhong\obj\Debug\ConTrol_TrangThaiPhong.ThemPhong.resources
+C:\Users\lythi\OneDrive\Desktop\DoAnWin\ConTrol_TrangThaiPhong\obj\Debug\ConTrol_TrangThaiPhong.UserControl1.resources
+C:\Users\lythi\OneDrive\Desktop\DoAnWin\ConTrol_TrangThaiPhong\obj\Debug\ConTrol_TrangThaiPhong.csproj.GenerateResource.Cache
+C:\Users\lythi\OneDrive\Desktop\DoAnWin\ConTrol_TrangThaiPhong\obj\Debug\ConTrol_TrangThaiPhong.dll.licenses
+C:\Users\lythi\OneDrive\Desktop\DoAnWin\ConTrol_TrangThaiPhong\obj\Debug\ConTrol_TrangThaiPhong.dll
+C:\Users\lythi\OneDrive\Desktop\DoAnWin\ConTrol_TrangThaiPhong\obj\Debug\ConTrol_TrangThaiPhong.pdb

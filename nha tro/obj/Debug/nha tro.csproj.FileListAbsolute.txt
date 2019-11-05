@@ -17,6 +17,7 @@ C:\Users\lythi\OneDrive\Desktop\DoAnWin\nha tro\bin\Debug\nha tro.exe
 C:\Users\lythi\OneDrive\Desktop\DoAnWin\nha tro\bin\Debug\nha tro.pdb
 C:\Users\lythi\OneDrive\Desktop\DoAnWin\nha tro\obj\Debug\nha tro.exe
 C:\Users\lythi\OneDrive\Desktop\DoAnWin\nha tro\obj\Debug\nha tro.pdb
+<<<<<<< HEAD
 C:\Users\Admin\Documents\GitHub\DoAnWin\nha tro\bin\Debug\nha tro.exe.config
 C:\Users\Admin\Documents\GitHub\DoAnWin\nha tro\obj\Debug\nha tro.exe
 C:\Users\Admin\Documents\GitHub\DoAnWin\nha tro\obj\Debug\nha tro.pdb
@@ -37,3 +38,9 @@ C:\Users\Admin\Documents\GitHub\DoAnWin\nha tro\obj\Debug\nha_tro.TraPhong.resou
 C:\Users\Admin\Documents\GitHub\DoAnWin\nha tro\obj\Debug\nha tro.csproj.GenerateResource.Cache
 C:\Users\Admin\Documents\GitHub\DoAnWin\nha tro\obj\Debug\nha tro.exe.licenses
 C:\Users\Admin\Documents\GitHub\DoAnWin\nha tro\obj\Debug\nha_tro.DanhSachKhachTro.resources
+=======
+C:\Users\lythi\OneDrive\Desktop\DoAnWin\nha tro\bin\Debug\ThietKeControl.dll
+C:\Users\lythi\OneDrive\Desktop\DoAnWin\nha tro\bin\Debug\ThietKeControl.pdb
+C:\Users\lythi\OneDrive\Desktop\DoAnWin\nha tro\bin\Debug\ConTrol_TrangThaiPhong.dll
+C:\Users\lythi\OneDrive\Desktop\DoAnWin\nha tro\bin\Debug\ConTrol_TrangThaiPhong.pdb
+>>>>>>> 0a99e681f6d2f628f281956f65a65c0084b0ce83

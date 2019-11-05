@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="nhaTro" Class="dataPhong_LinQDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=DESKTOP-311GUAJ\SQLEXPRESS;Initial Catalog=nhaTro;User ID=sa" SettingsObjectName="ConTrol_TrangThaiPhong.Properties.Settings" SettingsPropertyName="nhaTroConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.PHONGTRO" Member="PHONGTROs">
+    <Type Name="PHONGTRO">
+      <Column Name="MaPT" Type="System.String" DbType="NVarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="MaKV" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="MaBangGia" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="TenPhong" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="SLToiDa" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="TrangThai" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="TrangThaiThue" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="SoNguoiHienTai" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
