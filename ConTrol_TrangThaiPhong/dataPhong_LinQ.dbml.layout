@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="dataPhong_LinQ">
+  <DataContextMoniker Name="/dataPhong_LinQDataContext" />
+  <nestedChildShapes>
+    <classShape Id="493e3cc0-ad5b-4951-bdae-04700ac8b35c" absoluteBounds="1.125, 1, 2, 2.3478011067708335">
+      <DataClassMoniker Name="/dataPhong_LinQDataContext/PHONGTRO" />
+      <nestedChildShapes>
+        <elementListCompartment Id="393f91d5-5f26-4a8b-80a4-789304738b1e" absoluteBounds="1.1399999999999997, 1.46, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

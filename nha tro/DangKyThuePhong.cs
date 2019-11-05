@@ -83,12 +83,12 @@ this.kHACHTROTableAdapter.Fill(this.dataSet1.KHACHTRO);
                 //them thong tin vao bang  KHACHTRO
                 bool TrangthaiTro = true; // true:dang ở //false khong con ở
                 string gioitinh = dkthuephong_dkComboBox.Text;
-                kHACHTROTableAdapter.Insert(textBox4.Text, maPTTextEdit.Text, textBox3.Text, textBox6.Text, gioitinh, textBox5.Text, textBox10.Text, textBox11.Text, TrangthaiTro, tendn);
+                kHACHTROTableAdapter.Insert(textBox4.Text, maPTTextEdit.Text, textBox3.Text, txtNhapSoN3.Text, gioitinh, textBox5.Text, textBox10.Text, txtNhapSoN1.Text, TrangthaiTro, tendn);
                 //======================================================================================================================
 
                 //them thong tin vao bang  QUANLITHUEPHONG
                 string Date = dateTimePicker1.Value.ToString("dd-MM-yyyy");
-                decimal tiendatcon = int.Parse(textBox12.Text);
+                decimal tiendatcon = int.Parse(txtNhapSoN2.Text);
                 qUANLITHUEPHONGTableAdapter.Insert(textBox4.Text, Date, true, tiendatcon);
                 //load lai datagird
                 this.phieudkthuephong_ds2TableAdapter.Fill_ds2(this.dataSet2.phieudkthuephong_ds2);
@@ -150,6 +150,14 @@ this.kHACHTROTableAdapter.Fill(this.dataSet1.KHACHTRO);
         {
            
 
+        }
+
+        private void textBox11_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar))
+            {
+                e.Handled = true;
+            }
         }
 
 

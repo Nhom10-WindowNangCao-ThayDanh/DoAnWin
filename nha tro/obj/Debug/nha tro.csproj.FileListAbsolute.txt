@@ -17,3 +17,7 @@ C:\Users\lythi\OneDrive\Desktop\DoAnWin\nha tro\bin\Debug\nha tro.exe
 C:\Users\lythi\OneDrive\Desktop\DoAnWin\nha tro\bin\Debug\nha tro.pdb
 C:\Users\lythi\OneDrive\Desktop\DoAnWin\nha tro\obj\Debug\nha tro.exe
 C:\Users\lythi\OneDrive\Desktop\DoAnWin\nha tro\obj\Debug\nha tro.pdb
+C:\Users\lythi\OneDrive\Desktop\DoAnWin\nha tro\bin\Debug\ThietKeControl.dll
+C:\Users\lythi\OneDrive\Desktop\DoAnWin\nha tro\bin\Debug\ThietKeControl.pdb
+C:\Users\lythi\OneDrive\Desktop\DoAnWin\nha tro\bin\Debug\ConTrol_TrangThaiPhong.dll
+C:\Users\lythi\OneDrive\Desktop\DoAnWin\nha tro\bin\Debug\ConTrol_TrangThaiPhong.pdb
