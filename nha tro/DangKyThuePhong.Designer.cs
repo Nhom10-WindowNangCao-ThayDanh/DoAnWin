@@ -57,6 +57,9 @@
             this.bangGiaTienBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.txtNhapSoN3 = new ThietKeControl.txtNhapSoN();
+            this.txtNhapSoN2 = new ThietKeControl.txtNhapSoN();
+            this.txtNhapSoN1 = new ThietKeControl.txtNhapSoN();
             this.dkthuephong_dkComboBox = new System.Windows.Forms.ComboBox();
             this.kHACHTROBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
@@ -106,9 +109,8 @@
             this.dataGridViewTextBoxColumn10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.pHONGTRO_ds2BindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.pHONGTRO_ds2TableAdapter = new nha_tro.DataSet2TableAdapters.PHONGTRO_ds2TableAdapter();
-            this.txtNhapSoN1 = new ThietKeControl.txtNhapSoN();
-            this.txtNhapSoN2 = new ThietKeControl.txtNhapSoN();
-            this.txtNhapSoN3 = new ThietKeControl.txtNhapSoN();
+            this.kHACHTRO_ds2BindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.kHACHTRO_ds2TableAdapter = new nha_tro.DataSet2TableAdapters.KHACHTRO_ds2TableAdapter();
             maPTLabel = new System.Windows.Forms.Label();
             maKVLabel = new System.Windows.Forms.Label();
             sLToiDaLabel = new System.Windows.Forms.Label();
@@ -144,6 +146,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.phieudkthuephong_ds2BindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.phieudkthuephong_ds2DataGridView)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pHONGTRO_ds2BindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.kHACHTRO_ds2BindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // maPTLabel
@@ -238,7 +241,7 @@
             this.groupBox1.Controls.Add(this.groupBox3);
             this.groupBox1.Location = new System.Drawing.Point(29, 68);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(1079, 435);
+            this.groupBox1.Size = new System.Drawing.Size(1099, 444);
             this.groupBox1.TabIndex = 18;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Thông tin thuê phòng";
@@ -452,6 +455,30 @@
             this.groupBox4.Text = "Thông tin chủ thuê";
             this.groupBox4.Enter += new System.EventHandler(this.groupBox4_Enter);
             // 
+            // txtNhapSoN3
+            // 
+            this.txtNhapSoN3.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNhapSoN3.Location = new System.Drawing.Point(209, 99);
+            this.txtNhapSoN3.Name = "txtNhapSoN3";
+            this.txtNhapSoN3.Size = new System.Drawing.Size(240, 21);
+            this.txtNhapSoN3.TabIndex = 30;
+            // 
+            // txtNhapSoN2
+            // 
+            this.txtNhapSoN2.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNhapSoN2.Location = new System.Drawing.Point(579, 132);
+            this.txtNhapSoN2.Name = "txtNhapSoN2";
+            this.txtNhapSoN2.Size = new System.Drawing.Size(171, 21);
+            this.txtNhapSoN2.TabIndex = 29;
+            // 
+            // txtNhapSoN1
+            // 
+            this.txtNhapSoN1.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNhapSoN1.Location = new System.Drawing.Point(579, 96);
+            this.txtNhapSoN1.Name = "txtNhapSoN1";
+            this.txtNhapSoN1.Size = new System.Drawing.Size(171, 21);
+            this.txtNhapSoN1.TabIndex = 28;
+            // 
             // dkthuephong_dkComboBox
             // 
             this.dkthuephong_dkComboBox.DataSource = this.kHACHTROBindingSource;
@@ -634,9 +661,9 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(118, 20);
+            this.button1.Location = new System.Drawing.Point(107, 14);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(87, 35);
+            this.button1.Size = new System.Drawing.Size(75, 28);
             this.button1.TabIndex = 0;
             this.button1.Text = "Thêm";
             this.button1.UseVisualStyleBackColor = true;
@@ -702,6 +729,8 @@
             // 
             this.tableAdapterManager1.BackupDataSetBeforeUpdate = false;
             this.tableAdapterManager1.Connection = null;
+            this.tableAdapterManager1.KHACHTRO_ds2_dkTableAdapter = null;
+            this.tableAdapterManager1.KHACHTRO_ds2TableAdapter = null;
             this.tableAdapterManager1.PHONGTRO_ds2TableAdapter = null;
             this.tableAdapterManager1.QUANLITHUEPHONGTableAdapter = null;
             this.tableAdapterManager1.UpdateOrder = nha_tro.DataSet2TableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
@@ -821,29 +850,14 @@
             // 
             this.pHONGTRO_ds2TableAdapter.ClearBeforeFill = true;
             // 
-            // txtNhapSoN1
+            // kHACHTRO_ds2BindingSource
             // 
-            this.txtNhapSoN1.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNhapSoN1.Location = new System.Drawing.Point(579, 96);
-            this.txtNhapSoN1.Name = "txtNhapSoN1";
-            this.txtNhapSoN1.Size = new System.Drawing.Size(171, 21);
-            this.txtNhapSoN1.TabIndex = 28;
+            this.kHACHTRO_ds2BindingSource.DataMember = "KHACHTRO_ds2";
+            this.kHACHTRO_ds2BindingSource.DataSource = this.dataSet2;
             // 
-            // txtNhapSoN2
+            // kHACHTRO_ds2TableAdapter
             // 
-            this.txtNhapSoN2.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNhapSoN2.Location = new System.Drawing.Point(579, 132);
-            this.txtNhapSoN2.Name = "txtNhapSoN2";
-            this.txtNhapSoN2.Size = new System.Drawing.Size(171, 21);
-            this.txtNhapSoN2.TabIndex = 29;
-            // 
-            // txtNhapSoN3
-            // 
-            this.txtNhapSoN3.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNhapSoN3.Location = new System.Drawing.Point(209, 99);
-            this.txtNhapSoN3.Name = "txtNhapSoN3";
-            this.txtNhapSoN3.Size = new System.Drawing.Size(240, 21);
-            this.txtNhapSoN3.TabIndex = 30;
+            this.kHACHTRO_ds2TableAdapter.ClearBeforeFill = true;
             // 
             // DangKyThuePhong
             // 
@@ -889,6 +903,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.phieudkthuephong_ds2BindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.phieudkthuephong_ds2DataGridView)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pHONGTRO_ds2BindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.kHACHTRO_ds2BindingSource)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -969,5 +984,7 @@
         private ThietKeControl.txtNhapSoN txtNhapSoN1;
         private ThietKeControl.txtNhapSoN txtNhapSoN3;
         private ThietKeControl.txtNhapSoN txtNhapSoN2;
+        private System.Windows.Forms.BindingSource kHACHTRO_ds2BindingSource;
+        private DataSet2TableAdapters.KHACHTRO_ds2TableAdapter kHACHTRO_ds2TableAdapter;
     }
 }

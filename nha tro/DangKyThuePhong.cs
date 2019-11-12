@@ -20,6 +20,8 @@ namespace nha_tro
 
         private void DangKyThuePhong_Load(object sender, EventArgs e)
         {
+            // TODO: This line of code loads data into the 'dataSet2.KHACHTRO_ds2' table. You can move, or remove it, as needed.
+            this.kHACHTRO_ds2TableAdapter.Fill_ds2(this.dataSet2.KHACHTRO_ds2);
             // TODO: This line of code loads data into the 'dataSet2.PHONGTRO_ds2' table. You can move, or remove it, as needed.
             this.pHONGTRO_ds2TableAdapter.Fill(this.dataSet2.PHONGTRO_ds2);
             // TODO: This line of code loads data into the 'dataSet2.phieudkthuephong_ds2' table. You can move, or remove it, as needed.
@@ -77,29 +79,42 @@ this.kHACHTROTableAdapter.Fill(this.dataSet1.KHACHTRO);
         }
         private void button1_Click(object sender, EventArgs e)
         {
-            if (int.Parse(soNguoiHienTaiSpinEdit.Text) + 1 <= int.Parse(sLToiDaSpinEdit.Text))
+
+            if (kHACHTRO_ds2TableAdapter.kiemtra_tontai(textBox4.Text) != 1)
             {
+                if (int.Parse(soNguoiHienTaiSpinEdit.Text) + 1 <= int.Parse(sLToiDaSpinEdit.Text))
+                {
 
-                //them thong tin vao bang  KHACHTRO
-                bool TrangthaiTro = true; // true:dang ở //false khong con ở
-                string gioitinh = dkthuephong_dkComboBox.Text;
-                kHACHTROTableAdapter.Insert(textBox4.Text, maPTTextEdit.Text, textBox3.Text, txtNhapSoN3.Text, gioitinh, textBox5.Text, textBox10.Text, txtNhapSoN1.Text, TrangthaiTro, tendn);
-                //======================================================================================================================
+                    //them thong tin vao bang  KHACHTRO
+                    bool TrangthaiTro = true; // true:dang ở //false khong con ở
+                    string gioitinh = dkthuephong_dkComboBox.Text;
+                    kHACHTROTableAdapter.Insert(textBox4.Text, maPTTextEdit.Text, textBox3.Text, txtNhapSoN3.Text, gioitinh, textBox5.Text, textBox10.Text, txtNhapSoN1.Text, TrangthaiTro, tendn);
+                    //======================================================================================================================
 
-                //them thong tin vao bang  QUANLITHUEPHONG
-                string Date = dateTimePicker1.Value.ToString("dd-MM-yyyy");
-                decimal tiendatcon = int.Parse(txtNhapSoN2.Text);
-                qUANLITHUEPHONGTableAdapter.Insert(textBox4.Text, Date, true, tiendatcon);
-                //load lai datagird
-                this.phieudkthuephong_ds2TableAdapter.Fill_ds2(this.dataSet2.phieudkthuephong_ds2);
-                MessageBox.Show("thêm thành công!!!");
-                //cap nhat lai so ng dang o hien tai trong bang phong tro
-                pHONGTRO_ds2TableAdapter.UpdateQuery(maPTTextEdit.Text, maKVTextEdit.Text, maBangGiaTextEdit.Text, true, maPTTextEdit.Text);
-                //load lai from
-                DangKyThuePhong_Load(sender, e);
+                    //cap nhat tinh trang phong trong bang phong thue
+                    if (int.Parse(soNguoiHienTaiSpinEdit.Text) == 0)
+                    {
+                        pHONGTRO_ds2TableAdapter.update_trangthaithue(maPTTextEdit.Text);
+                    }
+                    //======================================================================================================================
+
+                    //them thong tin vao bang  QUANLITHUEPHONG
+                    string Date = dateTimePicker1.Value.ToString("dd-MM-yyyy");
+                    decimal tiendatcon = int.Parse(txtNhapSoN2.Text);
+                    qUANLITHUEPHONGTableAdapter.Insert(textBox4.Text, Date, true, tiendatcon);
+                    //load lai datagird
+                    this.phieudkthuephong_ds2TableAdapter.Fill_ds2(this.dataSet2.phieudkthuephong_ds2);
+                    MessageBox.Show("thêm thành công!!!");
+                    //cap nhat lai so ng dang o hien tai trong bang phong tro
+                    pHONGTRO_ds2TableAdapter.UpdateQuery(maPTTextEdit.Text, maKVTextEdit.Text, maBangGiaTextEdit.Text, true, maPTTextEdit.Text);
+                    //load lai from
+                    DangKyThuePhong_Load(sender, e);
+                }
+                else
+                    MessageBox.Show("phòng đã hết chổ");
             }
             else
-                MessageBox.Show("phòng đã hết chổ");
+                MessageBox.Show("Trùng mã khách thuê","Thông Báo");
         }
 
         private void label4_Click(object sender, EventArgs e)

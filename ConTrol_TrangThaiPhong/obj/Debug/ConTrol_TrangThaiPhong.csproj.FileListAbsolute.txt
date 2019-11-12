@@ -8,3 +8,4 @@ C:\Users\lythi\OneDrive\Desktop\DoAnWin\ConTrol_TrangThaiPhong\obj\Debug\ConTrol
 C:\Users\lythi\OneDrive\Desktop\DoAnWin\ConTrol_TrangThaiPhong\obj\Debug\ConTrol_TrangThaiPhong.dll.licenses
 C:\Users\lythi\OneDrive\Desktop\DoAnWin\ConTrol_TrangThaiPhong\obj\Debug\ConTrol_TrangThaiPhong.dll
 C:\Users\lythi\OneDrive\Desktop\DoAnWin\ConTrol_TrangThaiPhong\obj\Debug\ConTrol_TrangThaiPhong.pdb
+C:\Users\lythi\OneDrive\Desktop\DoAnWin\ConTrol_TrangThaiPhong\obj\Debug\ConTrol_TrangThaiPhong.csprojResolveAssemblyReference.cache

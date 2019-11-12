@@ -60,11 +60,28 @@ namespace ConTrol_TrangThaiPhong
             {
                 for (int i = 1; i <= x; i++)
                 {
+                    sophong++;
                     Button b = new Button();
                     b.Name = "b1" + kc.ToString();
                     b.Size = new Size(100, 100);
                     b.Left = kc;
                     b.Top = 30 + xuongdong;
+                    //set hinh
+                    if (string.Compare(kt_trangthaithue(sophong), "True") == 0)
+                    {
+                        b.Image = Image.FromFile(chuoihinh_dangthue);
+                        b.ImageAlign = ContentAlignment.MiddleCenter;
+                        b.TextAlign = ContentAlignment.BottomCenter;
+                        b.Text = "Phòng " + sophong;
+                    }
+                    else
+                    {
+                        b.Image = Image.FromFile(chuoihinh_chuathue);
+                        b.ImageAlign = ContentAlignment.MiddleCenter;
+                        b.TextAlign = ContentAlignment.BottomCenter;
+                        b.Text = "Phòng " + sophong;
+                    }
+                    //=================
                     kc += 100;
                     this.Controls.Add(b);
                     b.Click += new System.EventHandler(bt_Click);
@@ -120,10 +137,21 @@ namespace ConTrol_TrangThaiPhong
                             b.Left = kc;
                             b.Top = 30 + xuongdong;
                             //set hinh
-                            b.Image = Image.FromFile(chuoihinh_chuathue);
-                            b.ImageAlign = ContentAlignment.MiddleCenter;
-                            b.TextAlign = ContentAlignment.BottomCenter;
-                            b.Text = "phòng " + sophong;
+                            if (string.Compare(kt_trangthaithue(sophong), "True") == 0)
+                            {
+                                b.Image = Image.FromFile(chuoihinh_dangthue);
+                                b.ImageAlign = ContentAlignment.MiddleCenter;
+                                b.TextAlign = ContentAlignment.BottomCenter;
+                                b.Text = "Phòng " + sophong;
+                            }
+                            else
+                            {
+                                b.Image = Image.FromFile(chuoihinh_chuathue);
+                                b.ImageAlign = ContentAlignment.MiddleCenter;
+                                b.TextAlign = ContentAlignment.BottomCenter;
+                                b.Text = "Phòng " + sophong;
+                            }
+                            //=================
                             //================
                             kc += 100;
                             this.Controls.Add(b);

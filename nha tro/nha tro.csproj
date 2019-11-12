@@ -173,6 +173,9 @@
     <EmbeddedResource Include="DangNhap.resx">
       <DependentUpon>DangNhap.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="TraPhong.resx">
+      <DependentUpon>TraPhong.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="DanhSachKhachTro.dbml.layout">
       <DependentUpon>DanhSachKhachTro.dbml</DependentUpon>
     </None>
@@ -207,9 +210,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="TrangThaiPhong.resx">
       <DependentUpon>TrangThaiPhong.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="TraPhong.resx">
-      <DependentUpon>TraPhong.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="DanhSachKhachTro.dbml">
       <Generator>MSLinqToSQLGenerator</Generator>
@@ -267,6 +267,10 @@
   </ItemGroup>
   <ItemGroup>
     <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="BLL\" />
+    <Folder Include="DAL\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
