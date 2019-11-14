@@ -1,6 +1,0 @@
-C:\Users\lythi\OneDrive\Desktop\DoAnWin\DAL\bin\Debug\DAL.dll.config
-C:\Users\lythi\OneDrive\Desktop\DoAnWin\DAL\bin\Debug\DAL.dll
-C:\Users\lythi\OneDrive\Desktop\DoAnWin\DAL\bin\Debug\DAL.pdb
-C:\Users\lythi\OneDrive\Desktop\DoAnWin\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
-C:\Users\lythi\OneDrive\Desktop\DoAnWin\DAL\obj\Debug\DAL.dll
-C:\Users\lythi\OneDrive\Desktop\DoAnWin\DAL\obj\Debug\DAL.pdb

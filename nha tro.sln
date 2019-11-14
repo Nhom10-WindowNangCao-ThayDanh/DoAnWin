@@ -7,10 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThietKeControl", "ThietKeCo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConTrol_TrangThaiPhong", "ConTrol_TrangThaiPhong\ConTrol_TrangThaiPhong.csproj", "{6937144A-12BE-4399-9367-EA83ACAC5DE9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{64B83252-1FD5-4A0F-B7FB-48DE42104250}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{F283118D-3A63-4CC1-A92B-1DC7488A158C}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,14 +25,6 @@ Global
 		{6937144A-12BE-4399-9367-EA83ACAC5DE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6937144A-12BE-4399-9367-EA83ACAC5DE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6937144A-12BE-4399-9367-EA83ACAC5DE9}.Release|Any CPU.Build.0 = Release|Any CPU
-		{64B83252-1FD5-4A0F-B7FB-48DE42104250}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{64B83252-1FD5-4A0F-B7FB-48DE42104250}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{64B83252-1FD5-4A0F-B7FB-48DE42104250}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{64B83252-1FD5-4A0F-B7FB-48DE42104250}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F283118D-3A63-4CC1-A92B-1DC7488A158C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F283118D-3A63-4CC1-A92B-1DC7488A158C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F283118D-3A63-4CC1-A92B-1DC7488A158C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F283118D-3A63-4CC1-A92B-1DC7488A158C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
