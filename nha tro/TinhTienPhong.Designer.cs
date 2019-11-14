@@ -28,44 +28,94 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.label8 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.label7 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.label9 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
+            this.pHONGTRO_ds2_dkDataGridView = new System.Windows.Forms.DataGridView();
+            this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewCheckBoxColumn1 = new System.Windows.Forms.DataGridViewCheckBoxColumn();
+            this.dataGridViewCheckBoxColumn2 = new System.Windows.Forms.DataGridViewCheckBoxColumn();
+            this.dataGridViewTextBoxColumn6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.pHONGTRO_ds2_dkBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.dataSet2 = new nha_tro.DataSet2();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.label11 = new System.Windows.Forms.Label();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.label12 = new System.Windows.Forms.Label();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.label10 = new System.Windows.Forms.Label();
-            this.textBox11 = new System.Windows.Forms.TextBox();
-            this.label13 = new System.Windows.Forms.Label();
-            this.textBox12 = new System.Windows.Forms.TextBox();
-            this.label14 = new System.Windows.Forms.Label();
+            this.ds_dv_ds2_dkDataGridView = new System.Windows.Forms.DataGridView();
+            this.dataGridViewTextBoxColumn7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ds_dv_ds2_dkBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.dv_dangsudung_dkBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.dv_dangsudung_dkBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.label18 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
-            this.groupBox2.SuspendLayout();
+            this.pHONGTRO_ds2BindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.pHONGTRO_ds2TableAdapter = new nha_tro.DataSet2TableAdapters.PHONGTRO_ds2TableAdapter();
+            this.tableAdapterManager = new nha_tro.DataSet2TableAdapters.TableAdapterManager();
+            this.pHONGTRO_ds2ComboBox = new System.Windows.Forms.ComboBox();
+            this.pHONGTRO_ds2_dkTableAdapter = new nha_tro.DataSet2TableAdapters.PHONGTRO_ds2_dkTableAdapter();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.dv_dangsudung_dkTableAdapter = new nha_tro.DataSet2TableAdapters.dv_dangsudung_dkTableAdapter();
+            this.bangGiaTien_ds2_dkBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.bangGiaTien_ds2_dkTableAdapter = new nha_tro.DataSet2TableAdapters.BangGiaTien_ds2_dkTableAdapter();
+            this.bangGiaTien_ds2_dkDataGridView = new System.Windows.Forms.DataGridView();
+            this.dataGridViewTextBoxColumn10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn11 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.qLTHUTIEN_ds2BindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.qLTHUTIEN_ds2TableAdapter = new nha_tro.DataSet2TableAdapters.QLTHUTIEN_ds2TableAdapter();
+            this.kHACHTRO_ds2BindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.kHACHTRO_ds2TableAdapter = new nha_tro.DataSet2TableAdapters.KHACHTRO_ds2TableAdapter();
+            this.kHACHTRO_ds2_dkBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.kHACHTRO_ds2_dkTableAdapter = new nha_tro.DataSet2TableAdapters.KHACHTRO_ds2_dkTableAdapter();
+            this.kHACHTRO_ds2_dkDataGridView = new System.Windows.Forms.DataGridView();
+            this.dataGridViewTextBoxColumn12 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn13 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn14 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn15 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn16 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn17 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn18 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn19 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewCheckBoxColumn3 = new System.Windows.Forms.DataGridViewCheckBoxColumn();
+            this.dataGridViewTextBoxColumn20 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.cT_DV_PhongTro_ds2_dkBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.cT_DV_PhongTro_ds2_dkTableAdapter = new nha_tro.DataSet2TableAdapters.CT_DV_PhongTro_ds2_dkTableAdapter();
+            this.ds_dv_ds2_dkTableAdapter = new nha_tro.DataSet2TableAdapters.ds_dv_ds2_dkTableAdapter();
+            this.hoaDonThu_ds2BindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.hoaDonThu_ds2TableAdapter = new nha_tro.DataSet2TableAdapters.HoaDonThu_ds2TableAdapter();
+            this.hoaDonThu_DS22BindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.hoaDonThu_DS22TableAdapter = new nha_tro.DataSet2TableAdapters.HoaDonThu_DS22TableAdapter();
             this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pHONGTRO_ds2_dkDataGridView)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pHONGTRO_ds2_dkBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataSet2)).BeginInit();
             this.groupBox3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ds_dv_ds2_dkDataGridView)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ds_dv_ds2_dkBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dv_dangsudung_dkBindingSource1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dv_dangsudung_dkBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pHONGTRO_ds2BindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bangGiaTien_ds2_dkBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bangGiaTien_ds2_dkDataGridView)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.qLTHUTIEN_ds2BindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.kHACHTRO_ds2BindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.kHACHTRO_ds2_dkBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.kHACHTRO_ds2_dkDataGridView)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cT_DV_PhongTro_ds2_dkBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.hoaDonThu_ds2BindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.hoaDonThu_DS22BindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -88,309 +138,182 @@
             this.label2.TabIndex = 2;
             this.label2.Text = "Tính Tiền Phòng";
             // 
-            // comboBox1
-            // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(113, 46);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 21);
-            this.comboBox1.TabIndex = 3;
-            // 
-            // groupBox2
-            // 
-            this.groupBox2.Controls.Add(this.textBox6);
-            this.groupBox2.Controls.Add(this.label8);
-            this.groupBox2.Controls.Add(this.textBox5);
-            this.groupBox2.Controls.Add(this.label7);
-            this.groupBox2.Controls.Add(this.textBox3);
-            this.groupBox2.Controls.Add(this.label6);
-            this.groupBox2.Controls.Add(this.textBox4);
-            this.groupBox2.Controls.Add(this.label9);
-            this.groupBox2.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox2.ForeColor = System.Drawing.Color.Red;
-            this.groupBox2.Location = new System.Drawing.Point(400, 111);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(460, 220);
-            this.groupBox2.TabIndex = 13;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Thông tin chủ thuê";
-            // 
-            // textBox6
-            // 
-            this.textBox6.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox6.Location = new System.Drawing.Point(176, 162);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(157, 21);
-            this.textBox6.TabIndex = 15;
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.ForeColor = System.Drawing.Color.Black;
-            this.label8.Location = new System.Drawing.Point(6, 162);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(36, 13);
-            this.label8.TabIndex = 14;
-            this.label8.Text = "CMND";
-            // 
-            // textBox5
-            // 
-            this.textBox5.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox5.Location = new System.Drawing.Point(176, 121);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(157, 21);
-            this.textBox5.TabIndex = 13;
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.Color.Black;
-            this.label7.Location = new System.Drawing.Point(6, 121);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(51, 13);
-            this.label7.TabIndex = 12;
-            this.label7.Text = "Năm Sinh";
-            // 
-            // textBox3
-            // 
-            this.textBox3.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(176, 80);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(157, 21);
-            this.textBox3.TabIndex = 11;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.Color.Black;
-            this.label6.Location = new System.Drawing.Point(6, 80);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(80, 13);
-            this.label6.TabIndex = 10;
-            this.label6.Text = "Tên người thuê";
-            // 
-            // textBox4
-            // 
-            this.textBox4.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(176, 34);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(157, 21);
-            this.textBox4.TabIndex = 9;
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.ForeColor = System.Drawing.Color.Black;
-            this.label9.Location = new System.Drawing.Point(6, 34);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(77, 13);
-            this.label9.TabIndex = 8;
-            this.label9.Text = "Mã khách thuê";
-            // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.textBox2);
-            this.groupBox1.Controls.Add(this.label4);
-            this.groupBox1.Controls.Add(this.textBox1);
-            this.groupBox1.Controls.Add(this.label3);
+            this.groupBox1.Controls.Add(this.pHONGTRO_ds2_dkDataGridView);
             this.groupBox1.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.ForeColor = System.Drawing.Color.Red;
             this.groupBox1.Location = new System.Drawing.Point(19, 111);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(362, 119);
+            this.groupBox1.Size = new System.Drawing.Size(869, 175);
             this.groupBox1.TabIndex = 16;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Thông tin phòng";
             // 
-            // textBox2
+            // pHONGTRO_ds2_dkDataGridView
             // 
-            this.textBox2.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(84, 77);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(157, 21);
-            this.textBox2.TabIndex = 11;
+            this.pHONGTRO_ds2_dkDataGridView.AutoGenerateColumns = false;
+            this.pHONGTRO_ds2_dkDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.pHONGTRO_ds2_dkDataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridViewTextBoxColumn1,
+            this.dataGridViewTextBoxColumn2,
+            this.dataGridViewTextBoxColumn3,
+            this.dataGridViewTextBoxColumn4,
+            this.dataGridViewTextBoxColumn5,
+            this.dataGridViewCheckBoxColumn1,
+            this.dataGridViewCheckBoxColumn2,
+            this.dataGridViewTextBoxColumn6});
+            this.pHONGTRO_ds2_dkDataGridView.DataSource = this.pHONGTRO_ds2_dkBindingSource;
+            this.pHONGTRO_ds2_dkDataGridView.Location = new System.Drawing.Point(6, 33);
+            this.pHONGTRO_ds2_dkDataGridView.Name = "pHONGTRO_ds2_dkDataGridView";
+            this.pHONGTRO_ds2_dkDataGridView.Size = new System.Drawing.Size(857, 116);
+            this.pHONGTRO_ds2_dkDataGridView.TabIndex = 0;
             // 
-            // label4
+            // dataGridViewTextBoxColumn1
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.Black;
-            this.label4.Location = new System.Drawing.Point(6, 80);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(58, 13);
-            this.label4.TabIndex = 10;
-            this.label4.Text = "Tên phòng";
+            this.dataGridViewTextBoxColumn1.DataPropertyName = "MaPT";
+            this.dataGridViewTextBoxColumn1.HeaderText = "MaPT";
+            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
             // 
-            // textBox1
+            // dataGridViewTextBoxColumn2
             // 
-            this.textBox1.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(84, 31);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(157, 21);
-            this.textBox1.TabIndex = 9;
+            this.dataGridViewTextBoxColumn2.DataPropertyName = "MaKV";
+            this.dataGridViewTextBoxColumn2.HeaderText = "MaKV";
+            this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
             // 
-            // label3
+            // dataGridViewTextBoxColumn3
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.Black;
-            this.label3.Location = new System.Drawing.Point(6, 34);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(54, 13);
-            this.label3.TabIndex = 8;
-            this.label3.Text = "Mã phòng";
+            this.dataGridViewTextBoxColumn3.DataPropertyName = "MaBangGia";
+            this.dataGridViewTextBoxColumn3.HeaderText = "MaBangGia";
+            this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
+            // 
+            // dataGridViewTextBoxColumn4
+            // 
+            this.dataGridViewTextBoxColumn4.DataPropertyName = "TenPhong";
+            this.dataGridViewTextBoxColumn4.HeaderText = "TenPhong";
+            this.dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
+            // 
+            // dataGridViewTextBoxColumn5
+            // 
+            this.dataGridViewTextBoxColumn5.DataPropertyName = "SLToiDa";
+            this.dataGridViewTextBoxColumn5.HeaderText = "SLToiDa";
+            this.dataGridViewTextBoxColumn5.Name = "dataGridViewTextBoxColumn5";
+            // 
+            // dataGridViewCheckBoxColumn1
+            // 
+            this.dataGridViewCheckBoxColumn1.DataPropertyName = "TrangThai";
+            this.dataGridViewCheckBoxColumn1.HeaderText = "TrangThai";
+            this.dataGridViewCheckBoxColumn1.Name = "dataGridViewCheckBoxColumn1";
+            // 
+            // dataGridViewCheckBoxColumn2
+            // 
+            this.dataGridViewCheckBoxColumn2.DataPropertyName = "TrangThaiThue";
+            this.dataGridViewCheckBoxColumn2.HeaderText = "TrangThaiThue";
+            this.dataGridViewCheckBoxColumn2.Name = "dataGridViewCheckBoxColumn2";
+            // 
+            // dataGridViewTextBoxColumn6
+            // 
+            this.dataGridViewTextBoxColumn6.DataPropertyName = "SoNguoiHienTai";
+            this.dataGridViewTextBoxColumn6.HeaderText = "SoNguoiHienTai";
+            this.dataGridViewTextBoxColumn6.Name = "dataGridViewTextBoxColumn6";
+            // 
+            // pHONGTRO_ds2_dkBindingSource
+            // 
+            this.pHONGTRO_ds2_dkBindingSource.DataMember = "PHONGTRO_ds2_dk";
+            this.pHONGTRO_ds2_dkBindingSource.DataSource = this.dataSet2;
+            // 
+            // dataSet2
+            // 
+            this.dataSet2.DataSetName = "DataSet2";
+            this.dataSet2.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // groupBox3
             // 
-            this.groupBox3.Controls.Add(this.label18);
-            this.groupBox3.Controls.Add(this.label17);
-            this.groupBox3.Controls.Add(this.label15);
-            this.groupBox3.Controls.Add(this.label16);
-            this.groupBox3.Controls.Add(this.textBox12);
-            this.groupBox3.Controls.Add(this.label14);
-            this.groupBox3.Controls.Add(this.textBox11);
-            this.groupBox3.Controls.Add(this.label13);
-            this.groupBox3.Controls.Add(this.textBox7);
-            this.groupBox3.Controls.Add(this.label5);
-            this.groupBox3.Controls.Add(this.textBox8);
-            this.groupBox3.Controls.Add(this.label10);
-            this.groupBox3.Controls.Add(this.textBox9);
-            this.groupBox3.Controls.Add(this.label11);
-            this.groupBox3.Controls.Add(this.textBox10);
-            this.groupBox3.Controls.Add(this.label12);
+            this.groupBox3.Controls.Add(this.ds_dv_ds2_dkDataGridView);
             this.groupBox3.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox3.ForeColor = System.Drawing.Color.Red;
-            this.groupBox3.Location = new System.Drawing.Point(895, 111);
+            this.groupBox3.Location = new System.Drawing.Point(894, 66);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(460, 220);
+            this.groupBox3.Size = new System.Drawing.Size(460, 347);
             this.groupBox3.TabIndex = 17;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Dịch vụ sử dụng";
             // 
-            // textBox9
+            // ds_dv_ds2_dkDataGridView
             // 
-            this.textBox9.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox9.Location = new System.Drawing.Point(84, 65);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(56, 21);
-            this.textBox9.TabIndex = 11;
+            this.ds_dv_ds2_dkDataGridView.AutoGenerateColumns = false;
+            this.ds_dv_ds2_dkDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.ds_dv_ds2_dkDataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridViewTextBoxColumn7,
+            this.dataGridViewTextBoxColumn8,
+            this.dataGridViewTextBoxColumn9});
+            this.ds_dv_ds2_dkDataGridView.DataSource = this.ds_dv_ds2_dkBindingSource;
+            this.ds_dv_ds2_dkDataGridView.Location = new System.Drawing.Point(6, 45);
+            this.ds_dv_ds2_dkDataGridView.Name = "ds_dv_ds2_dkDataGridView";
+            this.ds_dv_ds2_dkDataGridView.Size = new System.Drawing.Size(344, 220);
+            this.ds_dv_ds2_dkDataGridView.TabIndex = 0;
             // 
-            // label11
+            // dataGridViewTextBoxColumn7
             // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.ForeColor = System.Drawing.Color.Black;
-            this.label11.Location = new System.Drawing.Point(6, 65);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(68, 13);
-            this.label11.TabIndex = 10;
-            this.label11.Text = "Số khối nước";
+            this.dataGridViewTextBoxColumn7.DataPropertyName = "TenDV";
+            this.dataGridViewTextBoxColumn7.HeaderText = "TenDV";
+            this.dataGridViewTextBoxColumn7.Name = "dataGridViewTextBoxColumn7";
             // 
-            // textBox10
+            // dataGridViewTextBoxColumn8
             // 
-            this.textBox10.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox10.Location = new System.Drawing.Point(84, 34);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(56, 21);
-            this.textBox10.TabIndex = 9;
+            this.dataGridViewTextBoxColumn8.DataPropertyName = "DonGia";
+            this.dataGridViewTextBoxColumn8.HeaderText = "DonGia";
+            this.dataGridViewTextBoxColumn8.Name = "dataGridViewTextBoxColumn8";
             // 
-            // label12
+            // dataGridViewTextBoxColumn9
             // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.ForeColor = System.Drawing.Color.Black;
-            this.label12.Location = new System.Drawing.Point(6, 34);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(52, 13);
-            this.label12.TabIndex = 8;
-            this.label12.Text = "Số kí điện";
+            this.dataGridViewTextBoxColumn9.DataPropertyName = "SL";
+            this.dataGridViewTextBoxColumn9.HeaderText = "SL";
+            this.dataGridViewTextBoxColumn9.Name = "dataGridViewTextBoxColumn9";
             // 
-            // textBox7
+            // ds_dv_ds2_dkBindingSource
             // 
-            this.textBox7.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox7.Location = new System.Drawing.Point(251, 65);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(136, 21);
-            this.textBox7.TabIndex = 15;
+            this.ds_dv_ds2_dkBindingSource.DataMember = "ds_dv_ds2_dk";
+            this.ds_dv_ds2_dkBindingSource.DataSource = this.dataSet2;
             // 
-            // label5
+            // dv_dangsudung_dkBindingSource1
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.Black;
-            this.label5.Location = new System.Drawing.Point(173, 65);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(54, 13);
-            this.label5.TabIndex = 14;
-            this.label5.Text = "Tiền nước";
+            this.dv_dangsudung_dkBindingSource1.DataMember = "dv_dangsudung_dk";
+            this.dv_dangsudung_dkBindingSource1.DataSource = this.dataSet2;
             // 
-            // textBox8
+            // dv_dangsudung_dkBindingSource
             // 
-            this.textBox8.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox8.Location = new System.Drawing.Point(251, 34);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(136, 21);
-            this.textBox8.TabIndex = 13;
+            this.dv_dangsudung_dkBindingSource.DataSource = this.dataSet2;
+            this.dv_dangsudung_dkBindingSource.Position = 0;
             // 
-            // label10
+            // label18
             // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.ForeColor = System.Drawing.Color.Black;
-            this.label10.Location = new System.Drawing.Point(173, 34);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(48, 13);
-            this.label10.TabIndex = 12;
-            this.label10.Text = "Tiền nhà";
+            this.label18.AutoSize = true;
+            this.label18.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label18.ForeColor = System.Drawing.Color.Black;
+            this.label18.Location = new System.Drawing.Point(251, 389);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(28, 13);
+            this.label18.TabIndex = 23;
+            this.label18.Text = "VNĐ";
             // 
-            // textBox11
+            // label17
             // 
-            this.textBox11.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox11.Location = new System.Drawing.Point(251, 102);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(136, 21);
-            this.textBox11.TabIndex = 17;
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.ForeColor = System.Drawing.Color.Black;
-            this.label13.Location = new System.Drawing.Point(173, 102);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(50, 13);
-            this.label13.TabIndex = 16;
-            this.label13.Text = "Tiền điện";
-            // 
-            // textBox12
-            // 
-            this.textBox12.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox12.Location = new System.Drawing.Point(251, 140);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(136, 21);
-            this.textBox12.TabIndex = 19;
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.ForeColor = System.Drawing.Color.Black;
-            this.label14.Location = new System.Drawing.Point(173, 140);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(47, 13);
-            this.label14.TabIndex = 18;
-            this.label14.Text = "Internet";
+            this.label17.AutoSize = true;
+            this.label17.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.ForeColor = System.Drawing.Color.Black;
+            this.label17.Location = new System.Drawing.Point(138, 389);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(13, 13);
+            this.label17.TabIndex = 22;
+            this.label17.Text = "0";
             // 
             // label15
             // 
             this.label15.AutoSize = true;
             this.label15.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label15.ForeColor = System.Drawing.Color.Black;
-            this.label15.Location = new System.Drawing.Point(173, 204);
+            this.label15.Location = new System.Drawing.Point(16, 389);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(92, 13);
             this.label15.TabIndex = 21;
@@ -401,65 +324,356 @@
             this.label16.AutoSize = true;
             this.label16.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label16.ForeColor = System.Drawing.Color.Black;
-            this.label16.Location = new System.Drawing.Point(173, 176);
+            this.label16.Location = new System.Drawing.Point(16, 361);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(263, 13);
             this.label16.TabIndex = 20;
             this.label16.Text = "================================";
             // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.ForeColor = System.Drawing.Color.Black;
-            this.label17.Location = new System.Drawing.Point(295, 204);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(92, 13);
-            this.label17.TabIndex = 22;
-            this.label17.Text = "Tống tiền phải trả";
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.ForeColor = System.Drawing.Color.Black;
-            this.label18.Location = new System.Drawing.Point(408, 204);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(28, 13);
-            this.label18.TabIndex = 23;
-            this.label18.Text = "VNĐ";
-            // 
             // button1
             // 
             this.button1.Image = global::nha_tro.Properties.Resources.Gakuseisean_Ivista_2_Alarm_Tick;
             this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(19, 266);
+            this.button1.Location = new System.Drawing.Point(325, 301);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(181, 55);
             this.button1.TabIndex = 18;
             this.button1.Text = "Tính Tiền";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Visible = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // pHONGTRO_ds2BindingSource
+            // 
+            this.pHONGTRO_ds2BindingSource.DataMember = "PHONGTRO_ds2";
+            this.pHONGTRO_ds2BindingSource.DataSource = this.dataSet2;
+            // 
+            // pHONGTRO_ds2TableAdapter
+            // 
+            this.pHONGTRO_ds2TableAdapter.ClearBeforeFill = true;
+            // 
+            // tableAdapterManager
+            // 
+            this.tableAdapterManager.BackupDataSetBeforeUpdate = false;
+            this.tableAdapterManager.BangGiaTien_ds2_dkTableAdapter = null;
+            this.tableAdapterManager.CT_DV_PhongTro_ds2_dkTableAdapter = null;
+            this.tableAdapterManager.HoaDonThu_DS22TableAdapter = null;
+            this.tableAdapterManager.HoaDonThu_ds2TableAdapter = null;
+            this.tableAdapterManager.KHACHTRO_ds2_dkTableAdapter = null;
+            this.tableAdapterManager.KHACHTRO_ds2TableAdapter = null;
+            this.tableAdapterManager.PHONGTRO_ds2_dkTableAdapter = null;
+            this.tableAdapterManager.PHONGTRO_ds2TableAdapter = this.pHONGTRO_ds2TableAdapter;
+            this.tableAdapterManager.QLTHUTIEN_ds2TableAdapter = null;
+            this.tableAdapterManager.QUANLITHUEPHONGTableAdapter = null;
+            this.tableAdapterManager.TRAPHONG_ds2TableAdapter = null;
+            this.tableAdapterManager.UpdateOrder = nha_tro.DataSet2TableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
+            // 
+            // pHONGTRO_ds2ComboBox
+            // 
+            this.pHONGTRO_ds2ComboBox.DataSource = this.pHONGTRO_ds2BindingSource;
+            this.pHONGTRO_ds2ComboBox.DisplayMember = "TenPhong";
+            this.pHONGTRO_ds2ComboBox.FormattingEnabled = true;
+            this.pHONGTRO_ds2ComboBox.Location = new System.Drawing.Point(113, 46);
+            this.pHONGTRO_ds2ComboBox.Name = "pHONGTRO_ds2ComboBox";
+            this.pHONGTRO_ds2ComboBox.Size = new System.Drawing.Size(147, 21);
+            this.pHONGTRO_ds2ComboBox.TabIndex = 19;
+            this.pHONGTRO_ds2ComboBox.ValueMember = "MaPT";
+            this.pHONGTRO_ds2ComboBox.SelectedIndexChanged += new System.EventHandler(this.pHONGTRO_ds2ComboBox_SelectedIndexChanged);
+            // 
+            // pHONGTRO_ds2_dkTableAdapter
+            // 
+            this.pHONGTRO_ds2_dkTableAdapter.ClearBeforeFill = true;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.Black;
+            this.label3.Location = new System.Drawing.Point(251, 334);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(28, 13);
+            this.label3.TabIndex = 26;
+            this.label3.Text = "VNĐ";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.Black;
+            this.label4.Location = new System.Drawing.Point(138, 334);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(13, 13);
+            this.label4.TabIndex = 25;
+            this.label4.Text = "0";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.Black;
+            this.label5.Location = new System.Drawing.Point(16, 334);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(60, 13);
+            this.label5.TabIndex = 24;
+            this.label5.Text = "Tiền phòng";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.Black;
+            this.label6.Location = new System.Drawing.Point(251, 301);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(28, 13);
+            this.label6.TabIndex = 29;
+            this.label6.Text = "VNĐ";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.Color.Black;
+            this.label7.Location = new System.Drawing.Point(138, 301);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(13, 13);
+            this.label7.TabIndex = 28;
+            this.label7.Text = "0";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.ForeColor = System.Drawing.Color.Black;
+            this.label8.Location = new System.Drawing.Point(16, 301);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(89, 13);
+            this.label8.TabIndex = 27;
+            this.label8.Text = "Tống tiền dịch vụ";
+            // 
+            // dv_dangsudung_dkTableAdapter
+            // 
+            this.dv_dangsudung_dkTableAdapter.ClearBeforeFill = true;
+            // 
+            // bangGiaTien_ds2_dkBindingSource
+            // 
+            this.bangGiaTien_ds2_dkBindingSource.DataMember = "BangGiaTien_ds2_dk";
+            this.bangGiaTien_ds2_dkBindingSource.DataSource = this.dataSet2;
+            // 
+            // bangGiaTien_ds2_dkTableAdapter
+            // 
+            this.bangGiaTien_ds2_dkTableAdapter.ClearBeforeFill = true;
+            // 
+            // bangGiaTien_ds2_dkDataGridView
+            // 
+            this.bangGiaTien_ds2_dkDataGridView.AutoGenerateColumns = false;
+            this.bangGiaTien_ds2_dkDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.bangGiaTien_ds2_dkDataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridViewTextBoxColumn10,
+            this.dataGridViewTextBoxColumn11});
+            this.bangGiaTien_ds2_dkDataGridView.DataSource = this.bangGiaTien_ds2_dkBindingSource;
+            this.bangGiaTien_ds2_dkDataGridView.Location = new System.Drawing.Point(276, 362);
+            this.bangGiaTien_ds2_dkDataGridView.Name = "bangGiaTien_ds2_dkDataGridView";
+            this.bangGiaTien_ds2_dkDataGridView.Size = new System.Drawing.Size(300, 64);
+            this.bangGiaTien_ds2_dkDataGridView.TabIndex = 30;
+            this.bangGiaTien_ds2_dkDataGridView.Visible = false;
+            // 
+            // dataGridViewTextBoxColumn10
+            // 
+            this.dataGridViewTextBoxColumn10.DataPropertyName = "GiaTien";
+            this.dataGridViewTextBoxColumn10.HeaderText = "GiaTien";
+            this.dataGridViewTextBoxColumn10.Name = "dataGridViewTextBoxColumn10";
+            // 
+            // dataGridViewTextBoxColumn11
+            // 
+            this.dataGridViewTextBoxColumn11.DataPropertyName = "MaGia";
+            this.dataGridViewTextBoxColumn11.HeaderText = "MaGia";
+            this.dataGridViewTextBoxColumn11.Name = "dataGridViewTextBoxColumn11";
+            // 
+            // qLTHUTIEN_ds2BindingSource
+            // 
+            this.qLTHUTIEN_ds2BindingSource.DataMember = "QLTHUTIEN_ds2";
+            this.qLTHUTIEN_ds2BindingSource.DataSource = this.dataSet2;
+            // 
+            // qLTHUTIEN_ds2TableAdapter
+            // 
+            this.qLTHUTIEN_ds2TableAdapter.ClearBeforeFill = true;
+            // 
+            // kHACHTRO_ds2BindingSource
+            // 
+            this.kHACHTRO_ds2BindingSource.DataMember = "KHACHTRO_ds2";
+            this.kHACHTRO_ds2BindingSource.DataSource = this.dataSet2;
+            // 
+            // kHACHTRO_ds2TableAdapter
+            // 
+            this.kHACHTRO_ds2TableAdapter.ClearBeforeFill = true;
+            // 
+            // kHACHTRO_ds2_dkBindingSource
+            // 
+            this.kHACHTRO_ds2_dkBindingSource.DataMember = "KHACHTRO_ds2_dk";
+            this.kHACHTRO_ds2_dkBindingSource.DataSource = this.dataSet2;
+            // 
+            // kHACHTRO_ds2_dkTableAdapter
+            // 
+            this.kHACHTRO_ds2_dkTableAdapter.ClearBeforeFill = true;
+            // 
+            // kHACHTRO_ds2_dkDataGridView
+            // 
+            this.kHACHTRO_ds2_dkDataGridView.AutoGenerateColumns = false;
+            this.kHACHTRO_ds2_dkDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.kHACHTRO_ds2_dkDataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridViewTextBoxColumn12,
+            this.dataGridViewTextBoxColumn13,
+            this.dataGridViewTextBoxColumn14,
+            this.dataGridViewTextBoxColumn15,
+            this.dataGridViewTextBoxColumn16,
+            this.dataGridViewTextBoxColumn17,
+            this.dataGridViewTextBoxColumn18,
+            this.dataGridViewTextBoxColumn19,
+            this.dataGridViewCheckBoxColumn3,
+            this.dataGridViewTextBoxColumn20});
+            this.kHACHTRO_ds2_dkDataGridView.DataSource = this.kHACHTRO_ds2_dkBindingSource;
+            this.kHACHTRO_ds2_dkDataGridView.Location = new System.Drawing.Point(582, 301);
+            this.kHACHTRO_ds2_dkDataGridView.Name = "kHACHTRO_ds2_dkDataGridView";
+            this.kHACHTRO_ds2_dkDataGridView.Size = new System.Drawing.Size(300, 125);
+            this.kHACHTRO_ds2_dkDataGridView.TabIndex = 31;
+            // 
+            // dataGridViewTextBoxColumn12
+            // 
+            this.dataGridViewTextBoxColumn12.DataPropertyName = "MaKT";
+            this.dataGridViewTextBoxColumn12.HeaderText = "MaKT";
+            this.dataGridViewTextBoxColumn12.Name = "dataGridViewTextBoxColumn12";
+            // 
+            // dataGridViewTextBoxColumn13
+            // 
+            this.dataGridViewTextBoxColumn13.DataPropertyName = "MaPT";
+            this.dataGridViewTextBoxColumn13.HeaderText = "MaPT";
+            this.dataGridViewTextBoxColumn13.Name = "dataGridViewTextBoxColumn13";
+            // 
+            // dataGridViewTextBoxColumn14
+            // 
+            this.dataGridViewTextBoxColumn14.DataPropertyName = "HoTen";
+            this.dataGridViewTextBoxColumn14.HeaderText = "HoTen";
+            this.dataGridViewTextBoxColumn14.Name = "dataGridViewTextBoxColumn14";
+            // 
+            // dataGridViewTextBoxColumn15
+            // 
+            this.dataGridViewTextBoxColumn15.DataPropertyName = "CMND";
+            this.dataGridViewTextBoxColumn15.HeaderText = "CMND";
+            this.dataGridViewTextBoxColumn15.Name = "dataGridViewTextBoxColumn15";
+            // 
+            // dataGridViewTextBoxColumn16
+            // 
+            this.dataGridViewTextBoxColumn16.DataPropertyName = "GioiTinh";
+            this.dataGridViewTextBoxColumn16.HeaderText = "GioiTinh";
+            this.dataGridViewTextBoxColumn16.Name = "dataGridViewTextBoxColumn16";
+            // 
+            // dataGridViewTextBoxColumn17
+            // 
+            this.dataGridViewTextBoxColumn17.DataPropertyName = "NgeNghiep";
+            this.dataGridViewTextBoxColumn17.HeaderText = "NgeNghiep";
+            this.dataGridViewTextBoxColumn17.Name = "dataGridViewTextBoxColumn17";
+            // 
+            // dataGridViewTextBoxColumn18
+            // 
+            this.dataGridViewTextBoxColumn18.DataPropertyName = "DiaChi";
+            this.dataGridViewTextBoxColumn18.HeaderText = "DiaChi";
+            this.dataGridViewTextBoxColumn18.Name = "dataGridViewTextBoxColumn18";
+            // 
+            // dataGridViewTextBoxColumn19
+            // 
+            this.dataGridViewTextBoxColumn19.DataPropertyName = "SDT";
+            this.dataGridViewTextBoxColumn19.HeaderText = "SDT";
+            this.dataGridViewTextBoxColumn19.Name = "dataGridViewTextBoxColumn19";
+            // 
+            // dataGridViewCheckBoxColumn3
+            // 
+            this.dataGridViewCheckBoxColumn3.DataPropertyName = "TrangthaiTro";
+            this.dataGridViewCheckBoxColumn3.HeaderText = "TrangthaiTro";
+            this.dataGridViewCheckBoxColumn3.Name = "dataGridViewCheckBoxColumn3";
+            // 
+            // dataGridViewTextBoxColumn20
+            // 
+            this.dataGridViewTextBoxColumn20.DataPropertyName = "tendangnhap";
+            this.dataGridViewTextBoxColumn20.HeaderText = "tendangnhap";
+            this.dataGridViewTextBoxColumn20.Name = "dataGridViewTextBoxColumn20";
+            // 
+            // cT_DV_PhongTro_ds2_dkBindingSource
+            // 
+            this.cT_DV_PhongTro_ds2_dkBindingSource.DataMember = "CT_DV_PhongTro_ds2_dk";
+            this.cT_DV_PhongTro_ds2_dkBindingSource.DataSource = this.dataSet2;
+            // 
+            // cT_DV_PhongTro_ds2_dkTableAdapter
+            // 
+            this.cT_DV_PhongTro_ds2_dkTableAdapter.ClearBeforeFill = true;
+            // 
+            // ds_dv_ds2_dkTableAdapter
+            // 
+            this.ds_dv_ds2_dkTableAdapter.ClearBeforeFill = true;
+            // 
+            // hoaDonThu_ds2BindingSource
+            // 
+            this.hoaDonThu_ds2BindingSource.DataMember = "HoaDonThu_ds2";
+            this.hoaDonThu_ds2BindingSource.DataSource = this.dataSet2;
+            // 
+            // hoaDonThu_ds2TableAdapter
+            // 
+            this.hoaDonThu_ds2TableAdapter.ClearBeforeFill = true;
+            // 
+            // hoaDonThu_DS22BindingSource
+            // 
+            this.hoaDonThu_DS22BindingSource.DataMember = "HoaDonThu_DS22";
+            this.hoaDonThu_DS22BindingSource.DataSource = this.dataSet2;
+            // 
+            // hoaDonThu_DS22TableAdapter
+            // 
+            this.hoaDonThu_DS22TableAdapter.ClearBeforeFill = true;
             // 
             // TinhTienPhong
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1352, 342);
+            this.AutoScroll = true;
+            this.ClientSize = new System.Drawing.Size(1370, 749);
+            this.Controls.Add(this.kHACHTRO_ds2_dkDataGridView);
+            this.Controls.Add(this.bangGiaTien_ds2_dkDataGridView);
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.button1);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.pHONGTRO_ds2ComboBox);
+            this.Controls.Add(this.label8);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.groupBox3);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.groupBox2);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.label2);
+            this.Controls.Add(this.label18);
             this.Controls.Add(this.label1);
+            this.Controls.Add(this.label17);
+            this.Controls.Add(this.label16);
+            this.Controls.Add(this.label15);
             this.Name = "TinhTienPhong";
             this.Text = "TinhTienPhong";
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
+            this.Load += new System.EventHandler(this.TinhTienPhong_Load);
             this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pHONGTRO_ds2_dkDataGridView)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pHONGTRO_ds2_dkBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataSet2)).EndInit();
             this.groupBox3.ResumeLayout(false);
-            this.groupBox3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ds_dv_ds2_dkDataGridView)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ds_dv_ds2_dkBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dv_dangsudung_dkBindingSource1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dv_dangsudung_dkBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pHONGTRO_ds2BindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bangGiaTien_ds2_dkBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bangGiaTien_ds2_dkDataGridView)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.qLTHUTIEN_ds2BindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.kHACHTRO_ds2BindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.kHACHTRO_ds2_dkBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.kHACHTRO_ds2_dkDataGridView)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cT_DV_PhongTro_ds2_dkBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.hoaDonThu_ds2BindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.hoaDonThu_DS22BindingSource)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -469,38 +683,71 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.Label label9;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.TextBox textBox12;
-        private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.TextBox textBox11;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.TextBox textBox9;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.TextBox textBox10;
-        private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Button button1;
+        private DataSet2 dataSet2;
+        private System.Windows.Forms.BindingSource pHONGTRO_ds2BindingSource;
+        private DataSet2TableAdapters.PHONGTRO_ds2TableAdapter pHONGTRO_ds2TableAdapter;
+        private DataSet2TableAdapters.TableAdapterManager tableAdapterManager;
+        private System.Windows.Forms.ComboBox pHONGTRO_ds2ComboBox;
+        private System.Windows.Forms.BindingSource pHONGTRO_ds2_dkBindingSource;
+        private DataSet2TableAdapters.PHONGTRO_ds2_dkTableAdapter pHONGTRO_ds2_dkTableAdapter;
+        private System.Windows.Forms.DataGridView pHONGTRO_ds2_dkDataGridView;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn3;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn4;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn5;
+        private System.Windows.Forms.DataGridViewCheckBoxColumn dataGridViewCheckBoxColumn1;
+        private System.Windows.Forms.DataGridViewCheckBoxColumn dataGridViewCheckBoxColumn2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn6;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.BindingSource dv_dangsudung_dkBindingSource;
+        private DataSet2TableAdapters.dv_dangsudung_dkTableAdapter dv_dangsudung_dkTableAdapter;
+        private System.Windows.Forms.BindingSource dv_dangsudung_dkBindingSource1;
+        private System.Windows.Forms.BindingSource bangGiaTien_ds2_dkBindingSource;
+        private DataSet2TableAdapters.BangGiaTien_ds2_dkTableAdapter bangGiaTien_ds2_dkTableAdapter;
+        private System.Windows.Forms.DataGridView bangGiaTien_ds2_dkDataGridView;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn10;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn11;
+        private System.Windows.Forms.BindingSource qLTHUTIEN_ds2BindingSource;
+        private DataSet2TableAdapters.QLTHUTIEN_ds2TableAdapter qLTHUTIEN_ds2TableAdapter;
+        private System.Windows.Forms.BindingSource kHACHTRO_ds2BindingSource;
+        private DataSet2TableAdapters.KHACHTRO_ds2TableAdapter kHACHTRO_ds2TableAdapter;
+        private System.Windows.Forms.BindingSource kHACHTRO_ds2_dkBindingSource;
+        private DataSet2TableAdapters.KHACHTRO_ds2_dkTableAdapter kHACHTRO_ds2_dkTableAdapter;
+        private System.Windows.Forms.DataGridView kHACHTRO_ds2_dkDataGridView;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn12;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn13;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn14;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn15;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn16;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn17;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn18;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn19;
+        private System.Windows.Forms.DataGridViewCheckBoxColumn dataGridViewCheckBoxColumn3;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn20;
+        private System.Windows.Forms.BindingSource cT_DV_PhongTro_ds2_dkBindingSource;
+        private DataSet2TableAdapters.CT_DV_PhongTro_ds2_dkTableAdapter cT_DV_PhongTro_ds2_dkTableAdapter;
+        private System.Windows.Forms.BindingSource ds_dv_ds2_dkBindingSource;
+        private DataSet2TableAdapters.ds_dv_ds2_dkTableAdapter ds_dv_ds2_dkTableAdapter;
+        private System.Windows.Forms.DataGridView ds_dv_ds2_dkDataGridView;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn7;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn8;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn9;
+        private System.Windows.Forms.BindingSource hoaDonThu_ds2BindingSource;
+        private DataSet2TableAdapters.HoaDonThu_ds2TableAdapter hoaDonThu_ds2TableAdapter;
+        private System.Windows.Forms.BindingSource hoaDonThu_DS22BindingSource;
+        private DataSet2TableAdapters.HoaDonThu_DS22TableAdapter hoaDonThu_DS22TableAdapter;
     }
 }

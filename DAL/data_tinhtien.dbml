@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="nhatro" Class="data_tinhtienDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=DESKTOP-311GUAJ\SQLEXPRESS;Initial Catalog=nhatro;User ID=sa" SettingsObjectName="DAL.Properties.Settings" SettingsPropertyName="nhatroConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.QLTHUTIEN" Member="QLTHUTIENs">
+    <Type Name="QLTHUTIEN">
+      <Column Name="MaThu" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="MaDV" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="MaPT" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="MaKT" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Soluong" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="NgayThu" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
