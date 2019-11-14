@@ -22,3 +22,6 @@ C:\Users\lythi\OneDrive\Desktop\DoAnWin\nha tro\obj\Debug\nha tro.exe.licenses
 C:\Users\lythi\OneDrive\Desktop\DoAnWin\nha tro\obj\Debug\nha tro.exe
 C:\Users\lythi\OneDrive\Desktop\DoAnWin\nha tro\obj\Debug\nha tro.pdb
 C:\Users\lythi\OneDrive\Desktop\DoAnWin\nha tro\obj\Debug\nha tro.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\DoAnWinNC\DoAnWin\DoAnWin\nha tro\bin\Debug\nha tro.exe.config
+C:\Users\Admin\Desktop\DoAnWinNC\DoAnWin\DoAnWin\nha tro\obj\Debug\nha tro.exe
+C:\Users\Admin\Desktop\DoAnWinNC\DoAnWin\DoAnWin\nha tro\obj\Debug\nha tro.pdb
