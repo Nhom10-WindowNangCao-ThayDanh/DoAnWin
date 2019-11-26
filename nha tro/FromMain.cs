@@ -129,6 +129,13 @@ namespace nha_tro
             DangKyThuePhong.ShowDialog();
         }
 
+        private void barButtonItem9_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            Report report = new Report();
+            report.MdiParent = this;
+            report.Show();
+        }
+
 
 
 

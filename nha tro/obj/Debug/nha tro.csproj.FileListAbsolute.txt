@@ -30,3 +30,4 @@ C:\Users\Admin\Desktop\DoAnWinNC\DoAnWin\DoAnWin\nha tro\bin\Debug\nha tro.exe.c
 C:\Users\Admin\Desktop\DoAnWinNC\DoAnWin\DoAnWin\nha tro\obj\Debug\nha tro.exe
 C:\Users\Admin\Desktop\DoAnWinNC\DoAnWin\DoAnWin\nha tro\obj\Debug\nha tro.pdb
 C:\Users\lythi\OneDrive\Desktop\DoAnWin\nha tro\obj\Debug\nha_tro.Form1.resources
+C:\Users\lythi\OneDrive\Desktop\DoAnWin\nha tro\obj\Debug\nha_tro.Report.resources
